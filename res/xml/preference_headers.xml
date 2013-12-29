@@ -62,7 +62,7 @@
         <header
             android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
             android:key="privacy_guard_manager"
-            android:icon="@drawable/ic_app_privacy_gaurd"
+            android:icon="@drawable/ic_settings_privacy"
             android:title="@string/privacy_guard_manager_title" />
 
         <header
