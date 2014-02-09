@@ -43,6 +43,12 @@
             android:dependency="qs_quick_access"
             android:disableDependentsState="true" />
 
+        <CheckBoxPreference
+            android:key="quick_swipe"
+            android:title="@string/quick_swipe_title"
+            android:summary="@string/quick_swipe_summary"
+            android:persistent="false"/>
+
         <PreferenceScreen
             android:key="tile_picker"
             android:title="@string/tile_picker_title"
