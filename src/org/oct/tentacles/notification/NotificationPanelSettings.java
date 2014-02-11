@@ -50,7 +50,7 @@ public class NotificationPanelSettings extends SettingsPreferenceFragment implem
 
         mQuickSwipe = (CheckBoxPreference) prefSet.findPreference(QUICK_SWIPE);
         mQuickSwipe.setChecked(Settings.System.getInt(resolver,
-            Settings.System.QUICK_SWIPE, 1) == 1);
+            Settings.System.QUICK_SWIPE, 0) == 1);
         mQuickSwipe.setOnPreferenceChangeListener(this);
     }
 
