@@ -47,7 +47,8 @@
             android:key="quick_swipe"
             android:title="@string/quick_swipe_title"
             android:summary="@string/quick_swipe_summary"
-            android:persistent="false"/>
+            android:fragment="org.oct.tentacles.notification.NotificationPanelSettings"
+            android:value="false"/>
 
         <PreferenceScreen
             android:key="tile_picker"
