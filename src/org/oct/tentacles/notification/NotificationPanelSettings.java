@@ -48,7 +48,6 @@ public class NotificationPanelSettings extends SettingsPreferenceFragment implem
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
-        mQuickSwipe = (CheckBoxPreference) prefSet.findPreference(QUICK_SWIPE);
         mQuickSwipe.setChecked(Settings.System.getInt(resolver,
             Settings.System.QUICK_SWIPE, 0) == 1);
         mQuickSwipe.setOnPreferenceChangeListener(this);
