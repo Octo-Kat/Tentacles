@@ -55,6 +55,7 @@
             android:key="quick_swipe"
             android:title="@string/quick_swipe_title"
             android:summary="@string/quick_swipe_summary"
+            android:fragment="org.oct.tentacles.notification.NotificationPanelSettings"
             android:persistent="false"/>
 
         </PreferenceScreen>
