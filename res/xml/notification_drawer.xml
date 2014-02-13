@@ -35,7 +35,7 @@
             android:key="quick_swipe"
             android:title="@string/quick_swipe_title"
             android:summary="@string/quick_swipe_summary"
-            androud:fragment="org.oct.tentacles.notification.NotificationPanelSettings"
+            android:fragment="org.oct.tentacles.notification.NotificationPanelSettings"
             android:persistent="false"/>
 
         <org.oct.tentacles.SystemSettingCheckBoxPreference
