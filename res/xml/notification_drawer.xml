@@ -36,6 +36,11 @@
             android:dependency="qs_quick_access"
             android:disableDependentsState="true" />
 
+        <Preference
+            android:key="carrier_label"
+            android:title="@string/carrier_label_title"
+            android:fragment="com.carbon.fibers.fragments.sb.CarrierLabel" />
+
         <PreferenceScreen
             android:key="tile_picker"
             android:title="@string/tile_picker_title"
