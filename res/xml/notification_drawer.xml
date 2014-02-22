@@ -23,6 +23,11 @@
     <PreferenceCategory
         android:title="@string/category_quick_access" >
 
+        <Preference
+            android:key="carrier_label"
+            android:title="@string/carrier_label_title"
+            android:fragment="org.oct.tentacles.fragments.sb.CarrierLabel" />
+
         <org.oct.tentacles.SystemSettingCheckBoxPreference
             android:key="qs_quick_access"
             android:title="@string/title_quick_access"
