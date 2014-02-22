@@ -1,5 +1,5 @@
 
-package com.carbon.fibers.util;
+package org.oct.tentacles.util;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -21,7 +21,7 @@ import android.text.format.DateFormat;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.carbon.fibers.util.CMDProcessor.CommandResult;
+import org.oct.tentacles.util.CMDProcessor.CommandResult;
 
 public class Helpers {
 

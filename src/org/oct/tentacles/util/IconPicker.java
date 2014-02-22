@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.carbon.fibers.util;
+package org.oct.tentacles.util;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -38,7 +38,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.carbon.fibers.R;
+import org.oct.tentacles.R;
 
 import java.io.File;
 

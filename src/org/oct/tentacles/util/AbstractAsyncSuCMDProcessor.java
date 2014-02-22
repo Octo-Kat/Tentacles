@@ -1,11 +1,11 @@
 
-package com.carbon.fibers.util;
+package org.oct.tentacles.util;
 
 import android.os.AsyncTask;
 
-import com.carbon.fibers.objects.EasyPair;
-import com.carbon.fibers.util.CMDProcessor;
-import com.carbon.fibers.util.Helpers;
+import org.oct.tentacles.objects.EasyPair;
+import org.oct.tentacles.util.CMDProcessor;
+import org.oct.tentacles.util.Helpers;
 
 /**
  * An abstract implentation of AsyncTask

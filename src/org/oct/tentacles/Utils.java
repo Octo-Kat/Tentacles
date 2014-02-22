@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.carbon.fibers;
+package org.oct.tentacles;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -77,7 +77,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 
-import com.carbon.fibers.preference.IconPreferenceScreen;
+import org.oct.tentacles.preference.IconPreferenceScreen;
 
 public class Utils {
 

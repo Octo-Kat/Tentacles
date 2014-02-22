@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.carbon.fibers.util;
+package org.oct.tentacles.util;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -26,7 +26,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.util.Log;
 
-import com.carbon.fibers.R;
+import org.oct.tentacles.R;
 
 import com.android.internal.util.slim.AppHelper;
 

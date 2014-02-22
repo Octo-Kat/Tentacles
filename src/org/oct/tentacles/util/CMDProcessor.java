@@ -1,5 +1,5 @@
 
-package com.carbon.fibers.util;
+package org.oct.tentacles.util;
 
 import android.util.Log;
 
@@ -7,7 +7,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.InputStream;
 
-import com.carbon.fibers.objects.EasyPair;
+import org.oct.tentacles.objects.EasyPair;
 
 public class CMDProcessor {
 
