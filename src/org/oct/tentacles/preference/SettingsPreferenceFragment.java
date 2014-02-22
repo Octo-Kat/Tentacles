@@ -307,7 +307,7 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Di
         getActivity().onBackPressed();
     }
 
-    public boolean startFragment(
+    /*public boolean startFragment(
             Fragment caller, String fragmentClass, int requestCode, Bundle extras) {
         if (getActivity() instanceof PreferenceActivity) {
             PreferenceActivity preferenceActivity = (PreferenceActivity) getActivity();
@@ -320,7 +320,7 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Di
                     + ")");
             return false;
         }
-    }
+    }*/
 
    protected boolean isCheckBoxPreferenceChecked(Preference p) {
         if(p instanceof CheckBoxPreference) {
