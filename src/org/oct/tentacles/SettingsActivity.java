@@ -71,13 +71,13 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         super.onCreate(savedInstanceState);
         mInLocalHeaderSwitch = false;
 
-        if (!onIsHidingHeaders() && onIsMultiPane()) {
-            highlightHeader();
+//        if (!onIsHidingHeaders() && onIsMultiPane()) {
+//            highlightHeader();
             // Force the title so that it doesn't get overridden by a direct
             // launch of
             // a specific settings screen.
-            setTitle(R.string.app_name);
-        }
+//            setTitle(R.string.app_name);
+//        }
 
         if ("org.oct.tentacles.START_NEW_FRAGMENT".equals(getIntent().getAction())) {
             String className = getIntent().getStringExtra("oct_fragment_name").toString();
@@ -134,40 +134,40 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_activity, menu);
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.main_activity, menu);
+//
+//        MenuItem locale = menu.findItem(R.id.change_locale);
+//
+//        if (Locale.getDefault().getLanguage().equals(Locale.ENGLISH.getLanguage())) {
+//            menu.removeItem(R.id.change_locale);
+//        } else {
+//            Configuration config = getBaseContext().getResources().getConfiguration();
+//            locale.setTitle("Locale (" + config.locale.getDisplayLanguage() + ")");
+//        }
+//        return true;
+//    }
 
-        MenuItem locale = menu.findItem(R.id.change_locale);
-
-        if (Locale.getDefault().getLanguage().equals(Locale.ENGLISH.getLanguage())) {
-            menu.removeItem(R.id.change_locale);
-        } else {
-            Configuration config = getBaseContext().getResources().getConfiguration();
-            locale.setTitle("Locale (" + config.locale.getDisplayLanguage() + ")");
-        }
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
-        switch (item.getItemId()) {
-            case R.id.change_locale:
-                Log.e(TAG, "change_locale clicked");
-                SharedPreferences p = getPreferences(MODE_PRIVATE);
-                boolean useEnglishLocale = p.getBoolean(KEY_USE_ENGLISH_LOCALE, false);
-                p.edit().putBoolean(KEY_USE_ENGLISH_LOCALE, !useEnglishLocale).apply();
-                recreate();
-                return true;
-            case android.R.id.home:
-                onBackPressed();
-                return true;
-            default:
-                return super.onContextItemSelected(item);
-        }
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
+//        switch (item.getItemId()) {
+//            case R.id.change_locale:
+//                Log.e(TAG, "change_locale clicked");
+//                SharedPreferences p = getPreferences(MODE_PRIVATE);
+//                boolean useEnglishLocale = p.getBoolean(KEY_USE_ENGLISH_LOCALE, false);
+//                p.edit().putBoolean(KEY_USE_ENGLISH_LOCALE, !useEnglishLocale).apply();
+//                recreate();
+//                return true;
+//            case android.R.id.home:
+//                onBackPressed();
+//                return true;
+//            default:
+//                return super.onContextItemSelected(item);
+//        }
+//    }
 
     private void setLocale() {
         SharedPreferences p = getPreferences(MODE_PRIVATE);
@@ -194,14 +194,14 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
     }
 
     private static final String[] ENTRY_FRAGMENTS = {
-        ButtonSettings.class.getName(),
-        InterfaceSettings.class.getName(),
-        KeyguardSettings.class.getName(),
-        MoreDeviceSettings.class.getName(),
-        PowerMenuSettings.class.getName(),
-        SbSettings.class.getName(),
-        QuickSettingsTiles.class.getName(),
-        QuickSettingsTilesStyle.class.getName(),
+//        ButtonSettings.class.getName(),
+//        InterfaceSettings.class.getName(),
+//        KeyguardSettings.class.getName(),
+//        MoreDeviceSettings.class.getName(),
+//        PowerMenuSettings.class.getName(),
+//        SbSettings.class.getName(),
+//        QuickSettingsTiles.class.getName(),
+//        QuickSettingsTilesStyle.class.getName(),
         CarrierLabel.class.getName()
     };
 
@@ -218,14 +218,14 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
     /**
      * Populate the activity with the top-level headers.
      */
-    @Override
-    public void onBuildHeaders(List<Header> headers) {
-        loadHeadersFromResource(R.xml.preference_headers, headers);
+//    @Override
+//    public void onBuildHeaders(List<Header> headers) {
+//        loadHeadersFromResource(R.xml.preference_headers, headers);
 
-        updateHeaderList(headers);
+//        updateHeaderList(headers);
 
-        mHeaders = headers;
-    }
+//        mHeaders = headers;
+//    }
 
     /**
      * Override initial header when an activity-alias is causing Settings to be

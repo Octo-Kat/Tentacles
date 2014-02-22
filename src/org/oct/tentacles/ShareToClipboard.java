@@ -28,7 +28,7 @@ public class ShareToClipboard extends Activity {
         mClipboardManager.setPrimaryClip(ClipData.newPlainText("Shared to RC", text));
 
         // alert the user
-        Toast.makeText(this, R.string.clipboard_notification, Toast.LENGTH_SHORT).show();
-        finish();
+//        Toast.makeText(this, R.string.clipboard_notification, Toast.LENGTH_SHORT).show();
+//        finish();
     }
 }
