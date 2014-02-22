@@ -80,7 +80,7 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         }
 
         if ("org.oct.tentacles.START_NEW_FRAGMENT".equals(getIntent().getAction())) {
-            String className = getIntent().getStringExtra("carbon_fragment_name").toString();
+            String className = getIntent().getStringExtra("oct_fragment_name").toString();
             Class<?> cls = null;
             try {
                 cls = Class.forName(className);

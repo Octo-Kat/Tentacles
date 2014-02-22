@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.carbon.fibers.preference;
+package org.oct.tentacles.preference;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -36,9 +36,9 @@ import android.util.Log;
 import android.telephony.TelephonyManager;
 import android.widget.Button;
 
-import com.carbon.fibers.R;
-import com.carbon.fibers.ButtonBarHandler;
-import com.carbon.fibers.DialogCreatable;
+import org.oct.tentacles.R;
+import org.oct.tentacles.ButtonBarHandler;
+import org.oct.tentacles.DialogCreatable;
 
 /**
  * Base class for Settings fragments, with some helper functions and dialog management
