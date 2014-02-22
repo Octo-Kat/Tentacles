@@ -39,7 +39,7 @@
         <Preference
             android:key="carrier_label"
             android:title="@string/carrier_label_title"
-            android:fragment="com.carbon.fibers.fragments.sb.CarrierLabel" />
+            android:fragment="org.oct.tentacles.fragments.sb.CarrierLabel" />
 
         <PreferenceScreen
             android:key="tile_picker"
