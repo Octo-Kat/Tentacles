@@ -70,5 +70,12 @@
             android:title="@string/status_bar_title"
             android:icon="@drawable/ic_tentacles_sb"
             android:fragment="com.oct.tentacles.fragments.sb.SbSettings" />
+            
+        <!-- Themes -->
+        <header
+            android:id="@+id/themes_cyanogen"
+            android:title="@string/themes_settings_title"
+            android:fragment="com.android.settings.ThemeSettings"
+            android:icon="@drawable/prd_ic_themepacks" />
 
 </preference-headers>
