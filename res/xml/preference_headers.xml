@@ -60,10 +60,15 @@
         </header>
 
         <header
+            android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
+            android:key="privacy_guard_manager"
+            android:summary="@string/privacy_guard_manager_summary"
+            android:title="@string/privacy_guard_manager_title" />
+
+        <header
             android:id="@+id/statusbar_settings"
             android:title="@string/status_bar_title"
             android:icon="@drawable/ic_tentacles_sb"
             android:fragment="com.oct.tentacles.fragments.sb.SbSettings" />
-
 
 </preference-headers>
