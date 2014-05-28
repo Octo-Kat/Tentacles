@@ -38,6 +38,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 // fragments import for entry
+import com.android.settings.privacyguard.*;
+import com.android.settings.applications.*;
 import com.oct.tentacles.dslv.*;
 import com.oct.tentacles.fragments.*;
 import com.oct.tentacles.fragments.ls.*;
@@ -220,6 +222,8 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         NavbarButtonFragment.class.getName(),
         ButtonsListViewSettings.class.getName(),
         LockscreenStyle.class.getName(),
+        PrivacyGuardManager.class.getName(),
+        AppOpsDetails.class.getName(),
         PieButtonFragment.class.getName(),
         PieButtonStyleSettings.class.getName(),
         PieControl.class.getName(),

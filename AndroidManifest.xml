@@ -20,6 +20,7 @@
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
     <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
     <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO" />
+    <uses-permission android:name="android.permission.CHANGE_PRIVACY_GUARD_STATE" />
 
     <application
         android:hardwareAccelerated="true"
