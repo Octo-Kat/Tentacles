@@ -970,7 +970,7 @@
     <string name="auto_brightness_reset_button">Reset</string>
 
     <!-- Hide mobile data when connected to wifi. User defined settings -->
-    <string name="hide_data_on_wifi_title">Hide network meter</string>
-    <string name="hide_data_on_wifi_summary">This will hide mobile network indicator when toggled on</string>
+    <string name="hide_data_on_wifi_title">Hide mobile data icon</string>
+    <string name="hide_data_on_wifi_summary">When enabled, this will hide the mobile network indicator when connected to Wi-Fi</string>
 
 </resources>
