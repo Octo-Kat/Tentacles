@@ -973,4 +973,8 @@
     <string name="hide_data_on_wifi_title">Hide mobile data icon</string>
     <string name="hide_data_on_wifi_summary">When enabled, this will hide the mobile network indicator when connected to Wi-Fi</string>
 
+    <!-- Choose between Long Press (AOSP) and Short Press (CM) QB toggles. User defined settings -->
+    <string name="long_toggle_title">Short (CM-style) Toggle</string>
+    <string name="long_toggle_summary">When enabled, Changes Quick Settings toggle from Long (Default, AOSP) to short (CM).</string>
+
 </resources>

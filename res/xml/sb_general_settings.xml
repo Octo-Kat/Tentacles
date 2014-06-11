@@ -36,4 +36,9 @@
         android:title="@string/hide_data_on_wifi_title"
         android:summary="@string/hide_data_on_wifi_summary" />
 
+
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
+        android:key="long_toggle"
+        android:title="@string/long_toggle_title"
+        android:summary="@string/long_toggle_summary" />
 </PreferenceScreen>
