@@ -973,4 +973,7 @@
     <string name="hide_data_on_wifi_title">Hide mobile data icon</string>
     <string name="hide_data_on_wifi_summary">When enabled, this will hide the mobile network indicator when connected to Wi-Fi</string>
 
+    <!-- Toggle Short-Press on QS. User defined settings -->
+    <string name="quick_toggle_title">Toggle Short-Press</string>    
+    <string name="quick_toggle_summary">When enabled, this will enable CM-Style short-press selection in QuickSettings/QuickRibbon to toggle</string>
 </resources>
