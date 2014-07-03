@@ -208,7 +208,6 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
 		MoreDeviceSettings.class.getName(),
 		KeyguardSettings.class.getName(),
 		LockscreenStyle.class.getName(),
-		LockscreenWidgets.class.getName(),
 		PrivacyGuardManager.class.getName(),
 		AppOpsDetails.class.getName(),
 		PieButtonFragment.class.getName(),

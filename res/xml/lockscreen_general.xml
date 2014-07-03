@@ -31,11 +31,6 @@
          <extra android:name="useAppPickerOnly" android:value="true" />
          <extra android:name="fragment" android:value="com.oct.tentacles.fragments.ls.LockscreenShortcutFragment" />
      </PreferenceScreen>
-			
-    <PreferenceScreen
-        android:key="keyguard_enable_widgets"
-        android:fragment="com.oct.tentacles.fragments.ls.LockscreenWidgets"
-        android:title="@string/lockscreen_widgets_title"/>
 
     <CheckBoxPreference
         android:key="battery_around_lockscreen_ring"
