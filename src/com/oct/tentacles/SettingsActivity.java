@@ -38,7 +38,8 @@ import android.widget.TextView;
 
 
 // fragments import for entry
-import com.android.settings.cyanogenmod.MoreDeviceSettings;
+import com.android.settings.cyanogenmod.*;
+import com.android.settings.headsup.*;
 import com.android.settings.privacyguard.*;
 import com.android.settings.applications.*;
 import com.oct.tentacles.dslv.*;
@@ -203,6 +204,7 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
 
     private static final String[] ENTRY_FRAGMENTS = {
 		AppSidebar.class.getName(),
+		HeadsUpDoNotDisturbSettings.class.getName(),
 		InterfaceSettings.class.getName(),
 		CarrierLabel.class.getName(),
 		MoreDeviceSettings.class.getName(),
