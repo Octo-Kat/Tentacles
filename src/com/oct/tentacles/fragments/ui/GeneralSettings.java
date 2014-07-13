@@ -19,6 +19,7 @@ package com.oct.tentacles.fragments.ui;
 import android.os.Bundle;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
@@ -30,14 +31,18 @@ import com.oct.tentacles.preference.SettingsPreferenceFragment;
 
 public class GeneralSettings extends SettingsPreferenceFragment {
     private static final String TAG = "GeneralSettings";
+
+    private static final String KEY_VOLUME_ADJUST_SOUNDS = "volume_adjust_sounds";
 	
-	private static final String KERNELTWEAKER_START = "kerneltweaker_start";
+    private static final String KERNELTWEAKER_START = "kerneltweaker_start";
 	
     // Package name of the kernel tweaker app
     public static final String KERNELTWEAKER_PACKAGE_NAME = "com.dsht.kerneltweaker";
     // Intent for launching the kernel tweaker main actvity
     public static Intent INTENT_KERNELTWEAKER = new Intent(Intent.ACTION_MAIN)
             .setClassName(KERNELTWEAKER_PACKAGE_NAME, KERNELTWEAKER_PACKAGE_NAME + ".MainActivity");
+
+    private CheckBoxPreference mVolumeAdustSound;
 
     private Preference mKernelTweaker;
 
@@ -50,6 +55,11 @@ public class GeneralSettings extends SettingsPreferenceFragment {
 		
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+
+        mVolumeAdustSound = (CheckBoxPreference) findPreference(KEY_VOLUME_ADJUST_SOUNDS);
+        mVolumeAdustSound.setPersistent(false);
+        mVolumeAdustSound.setChecked(Settings.System.getInt(resolver,
+        Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED, 1) == 1);
 
         mKernelTweaker = (Preference)
                 prefSet.findPreference(KERNELTWEAKER_START);
@@ -70,6 +80,9 @@ public class GeneralSettings extends SettingsPreferenceFragment {
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mKernelTweaker){
             startActivity(INTENT_KERNELTWEAKER);
+        } else if (preference == mVolumeAdustSound) {
+            Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED,
+                    mVolumeAdustSound.isChecked() ? 1 : 0);
             return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
