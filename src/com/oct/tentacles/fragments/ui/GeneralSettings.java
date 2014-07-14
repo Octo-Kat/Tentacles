@@ -59,7 +59,7 @@ public class GeneralSettings extends SettingsPreferenceFragment {
         mVolumeAdustSound = (CheckBoxPreference) findPreference(KEY_VOLUME_ADJUST_SOUNDS);
         mVolumeAdustSound.setPersistent(false);
         mVolumeAdustSound.setChecked(Settings.System.getInt(resolver,
-        Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED, 1) == 1);
+        Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED, 0) == 1);
 
         mKernelTweaker = (Preference)
                 prefSet.findPreference(KERNELTWEAKER_START);
