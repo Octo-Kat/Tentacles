@@ -41,6 +41,12 @@
             android:title="@string/quicksettings_tiles_style"
             android:summary="@string/summary_quicksettings_tiles_style" />
 
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
+        android:key="quick_toggle"
+        android:title="@string/quick_toggle_title"
+        android:summary="@string/quick_toggle_summary" />
+
+
     </PreferenceCategory>
 
     <PreferenceCategory
