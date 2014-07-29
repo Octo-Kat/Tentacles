@@ -28,7 +28,7 @@
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="battery_color"
         android:title="@string/battery_color_title"
-        android:defaultValue="0xffffffff" />
+        android:defaultValue="0xffdbdbdb" />
 
     <ListPreference
         android:key="circle_battery_animation_speed"
