@@ -93,7 +93,7 @@ public class SbSettings extends SettingsPreferenceFragment {
 			frags[0] = new BatterySettings();
 			frags[1] = new ClockSettings();
 			frags[2] = new SbGeneralSettings();
-            frags[3] = new NotificationDrawer();
+			frags[3] = new NotificationDrawer();
 			frags[4] = new QuickSettings();
         }
 
