@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The CarbonRom Project
+<!-- Copyright (C) 2012 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,23 +17,36 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ListPreference
-        android:key="clear_recents_button"
-        android:title="@string/clear_button_title"
-        android:dialogTitle="@string/clear_button_title"
-        android:entries="@array/clear_recents_entries"
-        android:entryValues="@array/clear_recents_values" />
-
-    <PreferenceScreen
-        android:key="recents_ram_bar"
-        android:fragment="com.carbon.fibers.fragments.ui.RamBar"
-        android:title="@string/ram_bar" />
+    <!-- Clear all button -->
+    <CheckBoxPreference
+            android:key="recent_menu_clear_all"
+            android:title="@string/show_recent_clear_all_button_title"
+            android:summary="@string/show_recent_clear_all_button_summary"
+            android:defaultValue="false" />
 
     <ListPreference
-        android:key="ram_circle"
-        android:title="@string/ram_circle_title"
-        android:dialogTitle="@string/ram_circle_title"
-        android:entries="@array/ram_circle_entries"
-        android:entryValues="@array/ram_circle_values" />
+            android:key="recent_menu_clear_all_location"
+            android:title="@string/recent_clear_all_button_location_title"
+            android:summary="@string/recent_clear_all_button_location_summary"
+            android:entries="@array/recent_clear_all_button_location_entries"
+            android:entryValues="@array/recent_clear_all_button_location_values"
+            android:defaultValue="2"
+            android:dependency="recent_menu_clear_all" />
+            
+    <!-- Memory Indicator -->           
+    <CheckBoxPreference
+            android:key="show_recents_memory_indicator"
+            android:title="@string/show_recents_memory_indicator_title"
+            android:summary="@string/show_recents_memory_indicator_summary"
+            android:defaultValue="false" />
+
+    <ListPreference
+            android:key="recents_memory_indicator_location"
+            android:title="@string/recents_memory_indicator_location_title"
+            android:summary="@string/recents_memory_indicator_location_summary"
+            android:entries="@array/recent_clear_all_button_location_entries"
+            android:entryValues="@array/recent_clear_all_button_location_values"
+            android:defaultValue="1"
+            android:dependency="show_recents_memory_indicator" />
 
 </PreferenceScreen>

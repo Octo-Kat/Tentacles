@@ -23,14 +23,14 @@
         android:key="display_calibration_category"
         android:title="@string/display_calibration_title" >
 
-       <com.carbon.fibers.fragments.DisplayColor
+       <com.android.settings.hardware.DisplayColor
                 android:key="color_calibration"
                 android:title="@string/color_calibration_title"
                 android:dialogTitle="@string/color_calibration_title"
                 android:summary="@string/color_calibration_summary"
                 android:persistent="false" />
 
-        <com.carbon.fibers.fragments.DisplayGamma
+        <com.android.settings.hardware.DisplayGamma
                 android:key="gamma_tuning"
                 android:title="@string/gamma_tuning_title_head"
                 android:dialogTitle="@string/gamma_tuning_title_head"
@@ -43,11 +43,22 @@
         android:key="sensors_motors_category"
         android:title="@string/sensors_motors_title" >
 
-        <com.carbon.fibers.fragments.VibratorIntensity
+        <com.android.settings.hardware.VibratorIntensity
             android:key="vibration_intensity"
             android:title="@string/vibrator_intensity_title"
             android:dialogTitle="@string/vibrator_intensity_title"
             android:persistent="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/headset_category_title" >
+
+        <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:key="headset_connect_player"
+            android:title="@string/headset_connect_player_title"
+            android:summary="@string/headset_connect_player_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 

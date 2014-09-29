@@ -1,18 +1,14 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/lockscreen_notifications">
+    android:title="@string/lockscreen_notifications"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
-        android:key="category_general"
         android:title="@string/general" >
         <CheckBoxPreference
             android:key="lockscreen_notifications"
             android:title="@string/lockscreen_notifications"
             android:summary="@string/lockscreen_notifications_summary" />
-
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:key="notification_color"
-            android:title="@string/notification_color" />
 
         <CheckBoxPreference
             android:key="pocket_mode"
@@ -44,13 +40,6 @@
             android:title="@string/dismiss_all"
             android:summary="@string/dismiss_all_summary" />
 
-        <com.carbon.fibers.preference.AppMultiSelectListPreference
-            android:key="excluded_apps"
-            android:persistent="false"
-            android:title="@string/excluded_apps_title"
-            android:dependency="lockscreen_notifications"
-            android:summary="@string/excluded_apps_summary" />
-
     </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/layout" >
@@ -61,7 +50,7 @@
             android:max="100"
             android:defaultValue="30" />
 
-        <com.carbon.fibers.preference.NumberPickerPreference
+        <com.oct.tentacles.preference.NumberPickerPreference
             android:key="notifications_height"
             android:dialogMessage="@string/notifications_height"
             android:title="@string/notifications_height"

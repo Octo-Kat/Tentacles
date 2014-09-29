@@ -15,7 +15,8 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/pie_control_trigger_positions">
+    android:title="@string/pie_control_trigger_positions"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <Preference
         style="?android:preferenceInformationStyle"
@@ -48,16 +49,5 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/additional_options_title">
-
-        <CheckBoxPreference
-            android:key="pie_disable_ime_triggers"
-            android:title="@string/pie_disable_ime_triggers_title"
-            android:summary="@string/pie_disable_ime_triggers_summary"
-            android:defaultValue="true" />
-
-   </PreferenceCategory>
 
 </PreferenceScreen>

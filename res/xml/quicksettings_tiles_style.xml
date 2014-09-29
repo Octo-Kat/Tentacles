@@ -15,7 +15,8 @@
 -->
 
 <PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
         android:title="@string/quicksettings_tiles_style">
@@ -35,7 +36,7 @@
              android:title="@string/quick_tiles_text_color_title"
              android:defaultValue="0xffcccccc" />
 
-        <com.carbon.fibers.widgets.SeekBarPreference
+        <com.oct.tentacles.widgets.SeekBarPreference
              android:key="quick_tiles_alpha"
              android:title="@string/quick_tiles_alpha_title" />
 

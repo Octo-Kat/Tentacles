@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.carbon.fibers">
+    package="com.oct.tentacles">
 
-    <original-package android:name="com.carbon.fibers" />
+    <original-package android:name="com.oct.tentacles" />
 
     <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -36,7 +36,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -45,7 +45,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -54,7 +54,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -63,7 +63,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -72,7 +72,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -81,7 +81,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -90,7 +90,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -99,7 +99,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -108,7 +108,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -136,7 +136,7 @@
         <receiver
             android:name=".service.ChangeFastChargeStateReceiver">
             <intent-filter>
-                <action android:name="com.carbon.fibers.ACTION_CHANGE_FCHARGE_STATE" />
+                <action android:name="com.oct.tentacles.ACTION_CHANGE_FCHARGE_STATE" />
             </intent-filter>
         </receiver>
         <service

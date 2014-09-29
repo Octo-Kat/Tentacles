@@ -11,8 +11,8 @@
         <attr name="unitsLeft" format="string|reference" />
         <attr name="unitsRight" format="string|reference" />
     </declare-styleable>
-
-    <declare-styleable name="DragSortListView">
+	
+     <declare-styleable name="DragSortListView">
         <attr name="collapsedHeight" format="dimension" />
         <attr name="dragScrollStart" format="float" />
         <attr name="maxDragScrollSpeed" format="float" />
@@ -38,11 +38,6 @@
         <attr name="flingHandleId" format="integer" />
         <attr name="clickRemoveId" format="integer" />
         <attr name="useDefaultController" format="boolean" />
-    </declare-styleable>
-
-    <declare-styleable name="CheckboxSetting">
-        <attr name="descriptionOn" format="string"/>
-        <attr name="descriptionOff" format="string"/>
     </declare-styleable>
 
 </resources>

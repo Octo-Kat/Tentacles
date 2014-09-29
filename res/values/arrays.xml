@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Clear recents button -->
-    <string-array name="clear_recents_entries" translatable="false">
-        <item>@string/clear_button_off</item>
-        <item>@string/clear_button_top_left</item>
-        <item>@string/clear_button_top_right</item>
-        <item>@string/clear_button_bottom_left</item>
-        <item>@string/clear_button_bottom_right</item>
-    </string-array>
-
-    <string-array name="clear_recents_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
-    <!-- RAM circle -->
-    <string-array name="ram_circle_entries" translatable="false">
-        <item>@string/clear_button_off</item>
-        <item>@string/clear_button_top_left</item>
-        <item>@string/clear_button_top_right</item>
-        <item>@string/clear_button_bottom_left</item>
-        <item>@string/clear_button_bottom_right</item>
-    </string-array>
-
-    <string-array name="ram_circle_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
-    <!-- Recents RAM bar-->
-    <string-array name="entries_ram_bar_mode" translatable="false">
-        <item>@string/ram_bar_none</item>
-        <item>@string/ram_bar_apps</item>
-        <item>@string/ram_bar_cache</item>
-        <item>@string/ram_bar_other</item>
-    </string-array>
-
-    <string-array name="values_ram_bar_mode" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <!-- ActiveDisplay Notifications -->
     <string-array name="ad_redisplay_entries" translatable="false">
         <item>@string/ad_redisplay_never</item>
@@ -73,42 +24,6 @@
         <item>18000000</item>
     </string-array>
 
-    <string-array name="ad_threshold_entries" translatable="false">
-        <item>@string/ad_threshold_0s</item>
-        <item>@string/ad_threshold_1s</item>
-        <item>@string/ad_threshold_2s</item>
-        <item>@string/ad_threshold_3s</item>
-        <item>@string/ad_threshold_4s</item>
-        <item>@string/ad_threshold_5s</item>
-    </string-array>
-
-    <string-array name="ad_threshold_values" translatable="false">
-        <item>0</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-    </string-array>
-
-    <string-array name="ad_timeout_entries" translatable="false">
-        <item>@string/ad_timeout_3s</item>
-        <item>@string/ad_timeout_5s</item>
-        <item>@string/ad_timeout_8s</item>
-        <item>@string/ad_timeout_10s</item>
-        <item>@string/ad_timeout_15s</item>
-        <item>@string/ad_timeout_25s</item>
-    </string-array>
-
-    <string-array name="ad_timeout_values" translatable="false">
-        <item>3000</item>
-        <item>5000</item>
-        <item>8000</item>
-        <item>10000</item>
-        <item>15000</item>
-        <item>25000</item>
-    </string-array>
-
     <string-array name="ad_pocket_mode_entries" translatable="false">
         <item>@string/ad_pocket_mode_off</item>
         <item>@string/ad_pocket_mode_notifications</item>
@@ -120,12 +35,87 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-
-    <!-- Gamma calibration descriptors, deliberately empty as string values populated via
-    per-device overlay. Required to build on non-hardware tunable devices -->
-    <string-array name="gamma_descriptors">
+    
+    <!-- Custom lock screen background-->
+    <string-array name="lockscreen_background_entries" translatable="false">
+        <item>@string/background_default</item>
+        <item>@string/background_wallpaper</item>
     </string-array>
 
+    <string-array name="lockscreen_background_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+	
+    <!-- App sidebar -->
+    <string-array name="app_sidebar_position_entries" translatable="false">
+        <item>@string/app_sidebar_position_left</item>
+        <item>@string/app_sidebar_position_right</item>
+    </string-array>
+    <string-array name="app_sidebar_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="tab_position_entries">
+        <item>Top</item>
+        <item>Middle</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="tab_position_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="tab_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="tab_size_entryValues">
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+    
+    <!-- Notification LED -->
+    <!-- Values for the notification light pulse spinners -->
+    <string-array name="notification_pulse_length_entries">
+        <item>@string/pulse_length_always_on</item>
+        <item>@string/pulse_length_very_short</item>
+        <item>@string/pulse_length_short</item>
+        <item>@string/pulse_length_normal</item>
+        <item>@string/pulse_length_long</item>
+        <item>@string/pulse_length_very_long</item>
+    </string-array>
+
+    <string-array name="notification_pulse_length_values" translatable="false">
+        <item>0</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+    </string-array>
+
+    <string-array name="notification_pulse_speed_entries">
+        <item>@string/pulse_speed_very_fast</item>
+        <item>@string/pulse_speed_fast</item>
+        <item>@string/pulse_speed_normal</item>
+        <item>@string/pulse_speed_slow</item>
+        <item>@string/pulse_speed_very_slow</item>
+    </string-array>
+
+    <string-array name="notification_pulse_speed_values" translatable="false">
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+    </string-array>
+
+    <!-- Quick settings -->	
     <string-array name="entries_network_widget" translatable="false">
         <item>2G | 2G+3G</item>
         <item>2G | 3G</item>
@@ -139,101 +129,13 @@
     </string-array>
 
     <string-array name="entries_screentimeout_widget">
-        <item>15s | 1m | 5m | Inf</item>
-        <item>30s | 2m | 5m | Inf</item>
+        <item>15s | 1m | 5m</item>
+        <item>30s | 2m | 5m</item>
     </string-array>
 
     <string-array name="values_screentimeout_widget" translatable="false">
         <item>0</item>
         <item>1</item>
-    </string-array>
-
-    <!-- Battery saver mode -->
-    <string-array name="enabled_networks_gsm_choices" translatable="false">
-        <item>@string/network_3G</item>
-        <item>@string/network_3G_auto</item>
-        <item>@string/network_3G_only</item>
-        <item>@string/network_2G</item>
-    </string-array>
-
-    <string-array name="enabled_networks_gsm_values" translatable="false">
-        <item>0</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-
-    <string-array name="enabled_networks_cdma_choices" translatable="false">
-        <item>@string/network_3G</item>
-        <item>@string/network_1x</item>
-        <item>@string/network_global</item>
-    </string-array>
-
-    <string-array name="enabled_networks_cdma_values" translatable="false">
-        <item>4</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
-
-    <string-array name="enabled_networks_lte_choices" translatable="false">
-        <item>@string/network_lte</item>
-        <item>@string/network_3G</item>
-        <item>@string/network_3G_auto</item>
-        <item>@string/network_3G_only</item>
-        <item>@string/network_2G</item>
-    </string-array>
-
-    <string-array name="enabled_networks_4g_choices" translatable="false">
-        <item>@string/network_4G</item>
-        <item>@string/network_3G</item>
-        <item>@string/network_3G_auto</item>
-        <item>@string/network_3G_only</item>
-        <item>@string/network_2G</item>
-    </string-array>
-
-    <string-array name="enabled_networks_4g_lte_values" translatable="false">
-        <item>9</item>
-        <item>0</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-
-    <string-array name="enabled_networks_except_gsm_lte_choices" translatable="false">
-        <item>@string/network_3G</item>
-    </string-array>
-
-    <string-array name="enabled_networks_except_gsm_lte_values" translatable="false">
-        <item>0</item>
-    </string-array>
-
-    <string-array name="enabled_networks_except_gsm_choices" translatable="false">
-        <item>@string/network_lte</item>
-        <item>@string/network_3G</item>
-    </string-array>
-
-    <string-array name="enabled_networks_except_gsm_4g_choices" translatable="false">
-        <item>@string/network_4G</item>
-        <item>@string/network_3G</item>
-    </string-array>
-
-    <string-array name="enabled_networks_except_gsm_values" translatable="false">
-        <item>9</item>
-        <item>0</item>
-    </string-array>
-
-    <string-array name="enabled_networks_cdma_lte_choices" translatable="false">
-        <item>@string/network_lte</item>
-        <item>@string/network_3G</item>
-        <item>@string/network_1x</item>
-        <item>@string/network_global</item>
-    </string-array>
-
-    <string-array name="enabled_networks_cdma_lte_values" translatable="false">
-        <item>8</item>
-        <item>4</item>
-        <item>5</item>
-        <item>10</item>
     </string-array>
 
     <string-array name="entries_ring_widget" translatable="false">
@@ -249,6 +151,19 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    
+    <!-- QuickSettings tiles per row -->
+    <string-array name="tiles_per_row_entries" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="tiles_per_row_values" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 
     <!-- Quick pulldown -->
     <string-array name="quick_pulldown_entries" translatable="false">
@@ -259,25 +174,10 @@
 
     <string-array name="quick_pulldown_values" translatable="false">
         <item>0</item>
-       <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <!-- Smart pulldown -->
-    <string-array name="smart_pulldown_entries" translatable="false">
-        <item>@string/smart_pulldown_off</item>
-        <item>@string/smart_pulldown_dismissable</item>
-        <item>@string/smart_pulldown_persistent</item>
-        <item>@string/smart_pulldown_all</item>
-    </string-array>
-
-    <string-array name="smart_pulldown_values" translatable="false">
-        <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
     </string-array>
-
+	
     <!-- Status bar auto-collapse behaviour -->
     <string-array name="notification_drawer_collapse_on_dismiss_entries" translatable="false">
         <item>@string/collapse_on_dismiss_never</item>
@@ -297,31 +197,28 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="entries_battery_icon" translatable="false">
+	<!-- Slim battery style -->
+    <string-array name="entries_battery_icon">
         <item>@string/battery_status_icon</item>
         <item>@string/battery_status_percentage</item>
         <item>@string/battery_status_icon_percentage</item>
-        <item>@string/battery_status_icon_percentage_jb</item>
         <item>@string/battery_status_circle</item>
         <item>@string/battery_status_circle_percentage</item>
         <item>@string/battery_status_dotted_circle</item>
         <item>@string/battery_status_dotted_circle_percentage</item>
-        <item>@string/battery_status_gone</item>
     </string-array>
 
     <string-array name="values_battery_icon" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>7</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>
-        <item>8</item>
     </string-array>
 
-    <string-array name="circle_battery_animation_speed_entries" translatable="false">
+    <string-array name="circle_battery_animation_speed_entries" >
         <item>@string/circle_battery_animation_speed_none</item>
         <item>@string/circle_battery_animation_speed_slow</item>
         <item>@string/circle_battery_animation_speed_stock</item>
@@ -334,7 +231,8 @@
         <item>3</item>
         <item>5</item>
     </string-array>
-
+	
+    <!-- Slim clock style -->        
     <string-array name="clock_style_entries" translatable="false">
         <item>@string/right_clock</item>
         <item>@string/center_clock</item>
@@ -344,12 +242,10 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-
-    <string-array name="clock_font_style_entries" translatable="false">
+	
+    <string-array name="clock_font_style_entries">
         <item>@string/clock_font_bold</item>
-        <item>@string/clock_font_condensed</item>
         <item>@string/clock_font_light</item>
-        <item>@string/clock_font_light_italic</item>
         <item>@string/clock_font_normal</item>
     </string-array>
 
@@ -357,11 +253,9 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
-        <item>4</item>
     </string-array>
 
-    <string-array name="entries_status_bar_am_pm" translatable="false">
+    <string-array name="entries_status_bar_am_pm">
         <item>@string/am_pm_clock_none</item>
         <item>@string/am_pm_clock_small</item>
         <item>@string/am_pm_clock_normal</item>
@@ -373,35 +267,7 @@
         <item>2</item>
     </string-array>
 
-    <!-- StatusBar Net Speed Meter -->
-    <string-array name="entries_status_bar_network_stats_update" translatable="false">
-        <item>@string/time_0_5_seconds</item>
-        <item>@string/time_1_second</item>
-        <item>@string/time_2_seconds</item>
-        <item>@string/time_5_seconds</item>
-    </string-array>
-
-    <string-array name="values_status_bar_network_stats_update" translatable="false">
-        <item>500</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>5000</item>
-    </string-array>
-
-    <!-- QuickSettings tiles per row -->
-    <string-array name="tiles_per_row_entries" translatable="false">
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-
-    <string-array name="tiles_per_row_values" translatable="false">
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-
-    <string-array name="clock_date_display_entries" translatable="false">
+    <string-array name="clock_date_display_entries">
         <item>@string/clock_date_display_none</item>
         <item>@string/clock_date_display_small</item>
         <item>@string/clock_date_display_normal</item>
@@ -413,7 +279,7 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="clock_date_style_entries" translatable="false">
+    <string-array name="clock_date_style_entries">
         <item>@string/clock_date_style_normal</item>
         <item>@string/clock_date_style_lowercase</item>
         <item>@string/clock_date_style_uppercase</item>
@@ -447,188 +313,65 @@
         <item>@string/clock_date_format_custom</item>
     </string-array>
 
-    <!-- Screenshot delay -->
-    <string-array name="entries_screenshot_delay" translatable="false">
-        <item>@string/time_2_seconds</item>
-        <item>@string/time_3_seconds</item>
-        <item>@string/time_4_seconds</item>
-        <item>@string/time_5_seconds</item>
-        <item>@string/time_6_seconds</item>
-        <item>@string/time_7_seconds</item>
-        <item>@string/time_8_seconds</item>
+    <!-- QuietHours Incoming Contact -->
+    <string-array name="incoming_contact_entries" translatable="false">
+        <item>@string/quiet_hours_auto_disabled</item>
+        <item>@string/quiet_hours_auto_enabled</item>
+        <item>@string/quiet_hours_auto_contacts</item>
     </string-array>
-    <string-array name="values_screenshot_delay" translatable="false">
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-    </string-array>
-
-    <string-array name="lockscreen_icon_picker_labels" translatable="false">
-        <item>@string/icon_picker_alarm</item>
-        <item>@string/icon_picker_browser</item>
-        <item>@string/icon_picker_calendar</item>
-        <item>@string/icon_picker_camera</item>
-        <item>@string/icon_picker_email</item>
-        <item>@string/icon_picker_email2</item>
-        <item>@string/icon_picker_facebook</item>
-        <item>@string/icon_picker_gallery</item>
-        <item>@string/icon_picker_google_small</item>
-        <item>@string/icon_picker_googleplus</item>
-        <item>@string/icon_picker_googletalk</item>
-        <item>@string/icon_picker_maps</item>
-        <item>@string/icon_picker_sms</item>
-        <item>@string/icon_picker_movie</item>
-        <item>@string/icon_picker_music</item>
-        <item>@string/icon_picker_nav_normal</item>
-        <item>@string/icon_picker_phone</item>
-        <item>@string/icon_picker_podcast</item>
-        <item>@string/icon_picker_rss</item>
-        <item>@string/icon_picker_search</item>
-        <item>@string/icon_picker_twitter</item>
-    </string-array>
-
-    <string-array name="lockscreen_icon_picker_icons" translatable="false">
-        <item>ic_lockscreen_alarm_normal</item>
-        <item>ic_lockscreen_browser_normal</item>
-        <item>ic_lockscreen_calendar_normal</item>
-        <item>ic_lockscreen_camera_normal</item>
-        <item>ic_lockscreen_email_normal</item>
-        <item>ic_lockscreen_email2_normal</item>
-        <item>ic_lockscreen_facebook_normal</item>
-        <item>ic_lockscreen_gallery_normal</item>
-        <item>ic_lockscreen_google_small_normal</item>
-        <item>ic_lockscreen_gplus_normal</item>
-        <item>ic_lockscreen_gtalk_normal</item>
-        <item>ic_lockscreen_maps_normal</item>
-        <item>ic_lockscreen_sms_normal</item>
-        <item>ic_lockscreen_movie_normal</item>
-        <item>ic_lockscreen_music_normal</item>
-        <item>ic_lockscreen_nav_normal</item>
-        <item>ic_lockscreen_phone_normal</item>
-        <item>ic_lockscreen_podcast_normal</item>
-        <item>ic_lockscreen_rss_normal</item>
-        <item>ic_lockscreen_google_normal</item>
-        <item>ic_lockscreen_twitter_normal</item>
-    </string-array>
-
-    <!-- Volume key cursor control -->
-    <string-array name="volbtn_cursor_control_entries" translatable="false">
-        <item>@string/volbtn_cursor_control_off</item>
-        <item>@string/volbtn_cursor_control_on</item>
-        <item>@string/volbtn_cursor_control_on_reverse</item>
-    </string-array>
-
-    <string-array name="volbtn_cursor_control_values" translatable="false">
+    <string-array name="incoming_contact_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
-    <!-- CRT off animation mode -->
-    <string-array name="entries_system_power_crt_mode">
-        <item>@string/system_power_crt_mode_off</item>
-        <item>@string/system_power_crt_mode_horizontal</item>
-        <item>@string/system_power_crt_mode_vertical</item>
-        <item>@string/system_power_crt_mode_both</item>
-        <item>@string/system_power_crt_mode_scale</item>
+    <!-- QuietHours Calls Required -->
+    <string-array name="incoming_call_number_entries" translatable="false">
+        <item>@string/two</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/five</item>
+        <item>@string/six</item>
+    </string-array>
+    <string-array name="incoming_call_number_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+ 
+    <!-- Clear All -->
+    <string-array name="recent_clear_all_button_location_entries" translatable="false">
+        <item>@string/recent_clear_all_button_location_top_left</item>
+        <item>@string/recent_clear_all_button_location_top_right</item>
+        <item>@string/recent_clear_all_button_location_bottom_left</item>
+        <item>@string/recent_clear_all_button_location_bottom_right</item>
     </string-array>
 
-    <string-array name="values_system_power_crt_mode" translatable="false">
+    <string-array name="recent_clear_all_button_location_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>4</item>
     </string-array>
 
-    <string-array name="notification_wallpaper_entries" translatable="false">
-        <item>@string/notification_background_color_fill</item>
-        <item>@string/notification_background_custom_image</item>
-        <item>@string/notification_background_default_wallpaper</item>
-    </string-array>
-
-    <string-array name="notification_wallpaper_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="notification_wallpaper_landscape_entries" translatable="false">
-        <item>@string/notification_background_custom_image</item>
-        <item>@string/notification_background_default_wallpaper</item>
-    </string-array>
-
-    <string-array name="notification_wallpaper_landscape_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
-    <string-array name="lockscreen_long_key_press_entries" translatable="false">
-        <item>@string/lockscreen_buttons_no_action</item>
-        <item>@string/lockscreen_buttons_next</item>
-        <item>@string/lockscreen_buttons_previous</item>
-        <item>@string/lockscreen_buttons_playpause</item>
-        <item>@string/lockscreen_buttons_toggle_sound</item>
-        <item>@string/lockscreen_buttons_sleep</item>
-    </string-array>
-
-    <string-array name="lockscreen_long_key_press_values" translatable="false">
-        <item></item>
-        <item>NEXT</item>
-        <item>PREVIOUS</item>
-        <item>PLAYPAUSE</item>
-        <item>SOUND</item>
-        <item>SLEEP</item>
-    </string-array>
-
-    <string-array name="lockscreen_battery_status_entries" translatable="false">
-        <item>@string/lockscreen_battery_status_charging</item>
-        <item>@string/lockscreen_battery_status_alwayson</item>
-        <item>@string/lockscreen_battery_status_alwaysoff</item>
-    </string-array>
-
-    <string-array name="lockscreen_battery_status_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <!-- Expanded desktop -->
-    <string-array name="expanded_desktop_entries" translatable="false">
-        <item>@string/expanded_desktop_disabled</item>
-        <item>@string/expanded_desktop_status_bar</item>
-        <item>@string/expanded_desktop_no_status_bar</item>
-    </string-array>
-
-    <string-array name="expanded_desktop_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="shortcut_action_entries" translatable="false">
+    <!-- Slim's navbar -->	
+    <string-array name="shortcut_action_entries">
         <item>@string/shortcut_action_back</item>
         <item>@string/shortcut_action_app</item>
-        <item>@string/shortcut_action_expanded_desktop</item>
+		<item>@string/shortcut_action_expanded_desktop</item>
         <item>@string/shortcut_action_home</item>
         <item>@string/shortcut_action_kill</item>
         <item>@string/shortcut_action_lastapp</item>
-        <item>@string/shortcut_action_navbar</item>
         <item>@string/shortcut_action_notifications</item>
-        <item>@string/shortcut_action_menu_big</item>
         <item>@string/shortcut_action_ime</item>
-        <item>@string/shortcut_action_pie</item>
         <item>@string/shortcut_action_power_menu</item>
         <item>@string/shortcut_action_qs</item>
-        <item>@string/shortcut_action_smart</item>
         <item>@string/shortcut_action_recent</item>
         <item>@string/shortcut_action_power</item>
         <item>@string/shortcut_action_screenshot</item>
-        <item>@string/shortcut_action_screen_record</item>
+		<item>@string/shortcut_action_screen_record</item>
         <item>@string/shortcut_action_search</item>
         <item>@string/shortcut_action_torch</item>
         <item>@string/shortcut_action_none</item>
@@ -637,29 +380,25 @@
     <string-array name="shortcut_action_values" translatable="false">
         <item>**back**</item>
         <item>**app**</item>
-        <item>**expanded_desktop**</item>
+		<item>**expanded_desktop**</item>
         <item>**home**</item>
         <item>**kill**</item>
         <item>**lastapp**</item>
-        <item>**nav_bar**</item>
         <item>**notifications**</item>
-        <item>**menu_big**</item>
         <item>**ime**</item>
-        <item>**pie**</item>
         <item>**power_menu**</item>
         <item>**quicksettings**</item>
-        <item>**smart_pulldown**</item>
         <item>**recents**</item>
         <item>**power**</item>
         <item>**screenshot**</item>
-        <item>**screen_record**</item>
+		<item>**screen_record**</item>
         <item>**search**</item>
         <item>**torch**</item>
         <item>**null**</item>
     </string-array>
 
     <!-- NavBar -->
-    <string-array name="pref_navigation_menu_entries" translatable="false">
+    <string-array name="pref_navigation_menu_entries">
         <item>@string/navigation_menu_right</item>
         <item>@string/navigation_menu_left</item>
         <item>@string/navigation_menu_both</item>
@@ -672,7 +411,7 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="pref_menu_display_entries" translatable="false">
+    <string-array name="pref_menu_display_entries">
         <item>@string/navigation_menu_always_show</item>
         <item>@string/navigation_menu_never_show</item>
         <item>@string/navigation_menu_default_jb_behavior</item>
@@ -746,16 +485,16 @@
         <item>0</item>
     </string-array>
 
-    <string-array name="shortcut_action_navring_entries" translatable="false">
+    <string-array name="shortcut_action_navring_entries">
         <item>@string/shortcut_action_app</item>
-        <item>@string/shortcut_action_expanded_desktop</item>
+		<item>@string/shortcut_action_expanded_desktop</item>
         <item>@string/shortcut_action_kill</item>
         <item>@string/shortcut_action_lastapp</item>
         <item>@string/shortcut_action_notifications</item>
+        <item>@string/shortcut_action_menu_big</item>
         <item>@string/shortcut_action_ime</item>
         <item>@string/shortcut_action_power_menu</item>
         <item>@string/shortcut_action_qs</item>
-        <item>@string/shortcut_action_smart</item>
         <item>@string/shortcut_action_ring_silent</item>
         <item>@string/shortcut_action_ring_vib</item>
         <item>@string/shortcut_action_ring_vib_silent</item>
@@ -768,56 +507,7 @@
 
     <string-array name="shortcut_action_navring_values" translatable="false">
         <item>**app**</item>
-        <item>**expanded_desktop**</item>
-        <item>**kill**</item>
-        <item>**lastapp**</item>
-        <item>**notifications**</item>
-        <item>**ime**</item>
-        <item>**power_menu**</item>
-        <item>**quicksettings**</item>
-        <item>**smart_pulldown**</item>
-        <item>**ring_silent**</item>
-        <item>**ring_vib**</item>
-        <item>**ring_vib_silent**</item>
-        <item>**power**</item>
-        <item>**screenshot**</item>
-        <item>**assist**</item>
-        <item>**torch**</item>
-        <item>**null**</item>
-    </string-array>
-
-    <!-- Hardware keys -->
-    <string-array name="shortcut_action_hwkey_entries">
-        <item>@string/shortcut_action_back</item>
-        <item>@string/shortcut_action_app</item>
-        <item>@string/shortcut_action_expanded_desktop</item>
-        <item>@string/shortcut_action_home</item>
-        <item>@string/shortcut_action_kill</item>
-        <item>@string/shortcut_action_lastapp</item>
-        <item>@string/shortcut_action_notifications</item>
-        <item>@string/shortcut_action_menu_big</item>
-        <item>@string/shortcut_action_ime</item>
-        <item>@string/shortcut_action_power_menu</item>
-        <item>@string/shortcut_action_qs</item>
-        <item>@string/shortcut_action_recent</item>
-        <item>@string/shortcut_action_ring_silent</item>
-        <item>@string/shortcut_action_ring_vib</item>
-        <item>@string/shortcut_action_ring_vib_silent</item>
-        <item>@string/shortcut_action_power</item>
-        <item>@string/shortcut_action_screenshot</item>
-        <item>@string/shortcut_action_assist</item>
-        <item>@string/shortcut_action_search</item>
-        <item>@string/shortcut_action_theme_switch</item>
-        <item>@string/shortcut_action_torch</item>
-        <item>@string/shortcut_action_voice_search</item>
-        <item>@string/shortcut_action_none</item>
-    </string-array>
-
-    <string-array name="shortcut_action_hwkey_values" translatable="false">
-        <item>**back**</item>
-        <item>**app**</item>
-        <item>**expanded_desktop**</item>
-        <item>**home**</item>
+		<item>**expanded_desktop**</item>
         <item>**kill**</item>
         <item>**lastapp**</item>
         <item>**notifications**</item>
@@ -825,26 +515,20 @@
         <item>**ime**</item>
         <item>**power_menu**</item>
         <item>**quicksettings**</item>
-        <item>**recents**</item>
         <item>**ring_silent**</item>
         <item>**ring_vib**</item>
         <item>**ring_vib_silent**</item>
         <item>**power**</item>
         <item>**screenshot**</item>
         <item>**assist**</item>
-        <item>**search**</item>
-        <item>**theme_switch**</item>
         <item>**torch**</item>
-        <item>**voice_search**</item>
         <item>**null**</item>
     </string-array>
-
-    <string-array name="shortcut_action_power_menu_entries" translatable="false">
+	
+    <string-array name="shortcut_action_power_menu_entries">
         <item>@string/shortcut_action_airplane</item>
         <item>@string/shortcut_action_app</item>
         <item>@string/shortcut_action_expanded_desktop</item>
-        <item>@string/shortcut_action_navbar</item>
-        <item>@string/shortcut_action_pie</item>
         <item>@string/shortcut_action_power_off</item>
         <item>@string/shortcut_action_reboot</item>
         <item>@string/shortcut_action_screenshot</item>
@@ -856,8 +540,6 @@
         <item>**airplane**</item>
         <item>**app**</item>
         <item>**expanded_desktop**</item>
-        <item>**nav_bar**</item>
-        <item>**pie**</item>
         <item>**poweroff**</item>
         <item>**reboot**</item>
         <item>**screenshot**</item>
@@ -865,7 +547,7 @@
         <item>**sound**</item>
     </string-array>
 
-    <string-array name="icon_color_mode_entries" translatable="false">
+    <string-array name="icon_color_mode_entries">
         <item>@string/icon_color_mode_all_icons</item>
         <item>@string/icon_color_mode_system_icons</item>
         <item>@string/icon_color_mode_system_custom_icons</item>
@@ -880,7 +562,7 @@
     </string-array>
 
     <!-- Icon type for lockscreen shorcut. -->
-    <string-array name="icon_types" translatable="false">
+    <string-array name="icon_types">
         <item>@string/icon_default</item>
         <item>@string/icon_presets</item>
         <item>@string/icon_custom</item>
@@ -996,130 +678,67 @@
         <item>@*android:drawable/ic_shortcut_unlock</item>
     </string-array>
 
-   <string-array name="icon_color_mode_entries">
-        <item>@string/icon_color_mode_all_icons</item>
-        <item>@string/icon_color_mode_system_icons</item>
-        <item>@string/icon_color_mode_system_custom_icons</item>
-        <item>@string/disabled</item>
+    <string-array name="lockscreen_icon_picker_labels">
+        <item>@string/icon_picker_alarm</item>
+        <item>@string/icon_picker_browser</item>
+        <item>@string/icon_picker_calendar</item>
+        <item>@string/icon_picker_camera</item>
+        <item>@string/icon_picker_email</item>
+        <item>@string/icon_picker_email2</item>
+        <item>@string/icon_picker_facebook</item>
+        <item>@string/icon_picker_gallery</item>
+        <item>@string/icon_picker_google_small</item>
+        <item>@string/icon_picker_googleplus</item>
+        <item>@string/icon_picker_googletalk</item>
+        <item>@string/icon_picker_maps</item>
+        <item>@string/icon_picker_sms</item>
+        <item>@string/icon_picker_movie</item>
+        <item>@string/icon_picker_music</item>
+        <item>@string/icon_picker_nav_normal</item>
+        <item>@string/icon_picker_phone</item>
+        <item>@string/icon_picker_podcast</item>
+        <item>@string/icon_picker_rss</item>
+        <item>@string/icon_picker_search</item>
+        <item>@string/icon_picker_twitter</item>
     </string-array>
 
-    <string-array name="icon_color_mode_values" translatable="false">
+    <string-array name="lockscreen_icon_picker_icons" translatable="false">
+        <item>ic_lockscreen_alarm_normal</item>
+        <item>ic_lockscreen_browser_normal</item>
+        <item>ic_lockscreen_calendar_normal</item>
+        <item>ic_lockscreen_camera_normal</item>
+        <item>ic_lockscreen_email_normal</item>
+        <item>ic_lockscreen_email2_normal</item>
+        <item>ic_lockscreen_facebook_normal</item>
+        <item>ic_lockscreen_gallery_normal</item>
+        <item>ic_lockscreen_google_small_normal</item>
+        <item>ic_lockscreen_gplus_normal</item>
+        <item>ic_lockscreen_gtalk_normal</item>
+        <item>ic_lockscreen_maps_normal</item>
+        <item>ic_lockscreen_sms_normal</item>
+        <item>ic_lockscreen_movie_normal</item>
+        <item>ic_lockscreen_music_normal</item>
+        <item>ic_lockscreen_nav_normal</item>
+        <item>ic_lockscreen_phone_normal</item>
+        <item>ic_lockscreen_podcast_normal</item>
+        <item>ic_lockscreen_rss_normal</item>
+        <item>ic_lockscreen_google_normal</item>
+        <item>ic_lockscreen_twitter_normal</item>
+    </string-array>
+	
+    <!-- Lockscreen lock icon values -->
+    <string-array name="lock_icon_entries">
+        <item>@string/lockscreen_lock_icon_custom</item>
+        <item>@string/lockscreen_lock_icon_oct</item>
+        <item>@string/lockscreen_lock_icon_default</item>
+    </string-array>
+
+    <string-array name="lock_icon_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
     </string-array>
-
-
-
-    <!-- Toast Animation -->
-    <string-array name="toast_animation_entries" translatable="false">
-        <item>@string/toast_none_animation</item>
-        <item>@string/toast_default_animation</item>
-        <item>@string/toast_fade_animation</item>
-        <item>@string/toast_SlideRight_animation</item>
-        <item>@string/toast_SlideLeft_animation</item>
-        <item>@string/toast_Xylon_animation</item>
-        <item>@string/toast_Toko_animation</item>
-        <item>@string/toast_Tn_animation</item>
-        <item>@string/toast_Honami_animation</item>
-        <item>@string/toast_FastFade_animation</item>
-        <item>@string/toast_GrowFade_animation</item>
-        <item>@string/toast_GrowFadeCenter_animation</item>
-        <item>@string/toast_GrowFadeBottom_animation</item>
-        <item>@string/toast_Translucent_animation</item>
-        <item>@string/toast_SlideLeftRight_animation</item>
-        <item>@string/toast_SlideRightLeft_animation</item>
-    </string-array>
-
-    <string-array name="toast_animation_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-    </string-array>
-
-    <!-- Listview animation -->
-    <string-array name="listview_animation_entries" translatable="false">
-        <item>@string/listview_off</item>
-        <item>@string/listview_wave_left</item>
-        <item>@string/listview_wave_right</item>
-        <item>@string/listview_scale</item>
-        <item>@string/listview_alpha</item>
-        <item>@string/listview_stack_top</item>
-        <item>@string/listview_stack_bottom</item>
-        <item>@string/listview_unfold</item>
-        <item>@string/listview_fold</item>
-        <item>@string/listview_translate_left</item>
-        <item>@string/listview_translate_right</item>
-    </string-array>
-
-    <string-array name="listview_animation_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
-
-    <!-- Listview Interpolator -->
-    <string-array name="listview_interpolator_entries" translatable="false">
-        <item>@string/listview_off</item>
-        <item>@string/listview_accelerate_interpolator</item>
-        <item>@string/listview_decelerate_interpolator</item>
-        <item>@string/listview_accelerate_decelerate_interpolator</item>
-        <item>@string/listview_anticipate_interpolator</item>
-        <item>@string/listview_overshoot_interpolator</item>
-        <item>@string/listview_anticipate_overshoot_interpolator</item>
-        <item>@string/listview_bounce_interpolator</item>
-    </string-array>
-
-    <string-array name="listview_interpolator_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </string-array>
-
-    <!-- ProgressBar -->
-    <string-array name="progressbar_interpolators_entries" translatable="false">
-        <item>@string/progressbar_none</item>
-        <item>@string/progressbar_accelerate</item>
-        <item>@string/progressbar_linear</item>
-        <item>@string/progressbar_acceleratedecelerate</item>
-        <item>@string/progressbar_decelerate</item>
-    </string-array>
-
-    <string-array name="progressbar_interpolators_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
+    
     <!-- Battery bar -->
     <string-array name="battery_bar_entries">
         <item>Hide</item>
@@ -1158,79 +777,49 @@
         <item>3</item>
         <item>4</item>
     </string-array>
-
-    <!-- Lockscreen lock icon values -->
-    <string-array name="lock_icon_entries" translatable="false">
-        <item>@string/lockscreen_lock_icon_custom</item>
-        <item>@string/lockscreen_lock_icon_carbon</item>
-        <item>@string/lockscreen_lock_icon_default</item>
+    
+    <!-- ProgressBar -->
+    <string-array name="progressbar_interpolators_entries">
+        <item>@string/progressbar_none</item>
+        <item>@string/progressbar_accelerate</item>
+        <item>@string/progressbar_linear</item>
+        <item>@string/progressbar_acceleratedecelerate</item>
+        <item>@string/progressbar_decelerate</item>
     </string-array>
 
-    <string-array name="lock_icon_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="entries_status_bar_signal" translatable="false">
-        <item>@string/status_bar_signal_style_icon</item>
-        <item>@string/status_bar_signal_style_text</item>
-        <item>@string/status_bar_style_hidden</item>
-    </string-array>
-
-    <string-array name="values_status_bar_signal" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <!-- Notification hide labels -->
-    <string-array name="notification_hide_labels_entries">
-        <item>@string/notification_hide_labels_disable</item>
-        <item>@string/notification_hide_labels_carrier</item>
-        <item>@string/notification_hide_labels_wifi</item>
-        <item>@string/notification_hide_labels_all</item>
-    </string-array>
- 
-    <string-array name="notification_hide_labels_values">
+    <string-array name="progressbar_interpolators_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
     </string-array>
 
-    <!-- Heads up -->
-    <string-array name="heads_up_snooze_entries">
-        <item>@string/disabled</item>
-        <item>@string/heads_up_snooze_3min</item>
-        <item>@string/heads_up_snooze_5min</item>
-        <item>@string/heads_up_snooze_10min</item>
-        <item>@string/heads_up_snooze_15min</item>
-        <item>@string/heads_up_snooze_20min</item>
+    <!-- Gamma calibration descriptors, deliberately empty as string values populated via
+         per-device overlay. Required to build on non-hardware tunable devices -->
+    <string-array name="gamma_descriptors" translatable="false">
+    </string-array>
+ 
+    <string-array name="notification_wallpaper_entries">
+        <item>@string/notification_background_color_fill</item>
+        <item>@string/notification_background_custom_image</item>
+        <item>@string/notification_background_default_wallpaper</item>
     </string-array>
 
-    <string-array name="heads_up_snooze_values" translatable="false">
+    <string-array name="notification_wallpaper_values" translatable="false">
         <item>0</item>
-        <item>180000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>900000</item>
-        <item>1200000</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 
-    <string-array name="heads_up_time_out_entries">
-        <item>@string/heads_up_time_out_never</item>
-        <item>@string/heads_up_time_out_4sec</item>
-        <item>@string/heads_up_time_out_6sec</item>
-        <item>@string/heads_up_time_out_8sec</item>
-        <item>@string/heads_up_time_out_10sec</item>
+    <string-array name="notification_wallpaper_landscape_entries">
+        <item>@string/notification_background_custom_image</item>
+        <item>@string/notification_background_default_wallpaper</item>
     </string-array>
 
-    <string-array name="heads_up_time_out_values" translatable="false">
+    <string-array name="notification_wallpaper_landscape_values" translatable="false">
         <item>0</item>
-        <item>4000</item>
-        <item>6000</item>
-        <item>8000</item>
-        <item>10000</item>
+        <item>1</item>
     </string-array>
+
 </resources>

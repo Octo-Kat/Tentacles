@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project
+<!-- Copyright (C) 2014 Team OctOS
+     Warning: Tentacles may strangle!
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,6 +22,7 @@
         android:key="pref_general_settings"
         android:title="@string/title_general" >
 
+
         <ListPreference
             android:key="quick_pulldown"
             android:title="@string/title_quick_pulldown"
@@ -28,23 +30,22 @@
             android:entryValues="@array/quick_pulldown_values"
             android:persistent="false" />
 
-        <ListPreference
-            android:key="smart_pulldown"
-            android:title="@string/smart_pulldown_title"
-            android:entries="@array/smart_pulldown_entries"
-            android:entryValues="@array/smart_pulldown_values"
-            android:persistent="false" />
-
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_collapse_panel"
             android:title="@string/title_collapse_panel"
             android:summary="@string/summary_collapse_panel" />
 
         <PreferenceScreen
             android:key="quicksettings_tiles_style"
-            android:fragment="com.carbon.fibers.fragments.sb.QuickSettingsTilesStyle"
+            android:fragment="com.oct.tentacles.fragments.sb.QuickSettingsTilesStyle"
             android:title="@string/quicksettings_tiles_style"
             android:summary="@string/summary_quicksettings_tiles_style" />
+
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
+        android:key="quick_toggle"
+        android:title="@string/quick_toggle_title"
+        android:summary="@string/quick_toggle_summary" />
+
 
     </PreferenceCategory>
 
@@ -56,12 +57,41 @@
             android:key="tile_picker"
             android:title="@string/tile_picker_title"
             android:summary="@string/tile_picker_summary"
-            android:fragment="com.carbon.fibers.fragments.sb.QuickSettingsTiles" />
+            android:fragment="com.oct.tentacles.fragments.sb.QuickSettingsTiles" />
+            
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
+            android:key="qs_hide_text"
+            android:title="@string/title_qs_hide_text"
+            android:defaultValue="false"
+            android:summary="@string/summary_qs_hide_text" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <MultiSelectListPreference
+            android:key="pref_ring_mode"
+            android:dialogTitle="@string/pref_ring_mode_title"
+            android:title="@string/pref_ring_mode_title"
+            android:summary="@string/pref_ring_mode_summary"
+            android:entries="@array/entries_ring_widget"
+            android:entryValues="@array/values_ring_widget" />
+
+        <ListPreference
+            android:key="pref_network_mode"
+            android:dialogTitle="@string/pref_network_mode_title"
+            android:title="@string/pref_network_mode_title"
+            android:entries="@array/entries_network_widget"
+            android:entryValues="@array/values_network_widget" />
+
+        <ListPreference
+            android:key="pref_screentimeout_mode"
+            android:dialogTitle="@string/pref_screentimeout_mode_title"
+            android:title="@string/pref_screentimeout_mode_title"
+            android:entries="@array/entries_screentimeout_widget"
+            android:entryValues="@array/values_screentimeout_widget" />
+
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="quick_settings_tiles_flip"
             android:title="@string/flip_qs_tiles_title"
-            android:defaultValue="true" />
+            android:summary="@string/flip_qs_tiles_summary"
+            android:defaultValue="false" />
 
         </PreferenceCategory>
 
@@ -75,41 +105,29 @@
             android:summary="@string/dynamic_tiles_note_summary"
             android:selectable="false" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_alarm"
             android:title="@string/title_dynamic_alarm"
             android:defaultValue="true" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_bugreport"
             android:title="@string/title_dynamic_bugreport"
             android:defaultValue="true" />
 
-        <!-- 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
-            android:key="qs_dyanmic_dock_battery"
-            android:title="@string/title_dynamic_dock_battery"
-            android:defaultValue="true" />
-        -->
-
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_ime"
             android:title="@string/title_dynamic_ime"
             android:defaultValue="true" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_usbtether"
             android:title="@string/title_dynamic_usbtether"
             android:defaultValue="true" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_wifi"
             android:title="@string/title_dynamic_wifi"
-            android:defaultValue="true" />
-
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
-            android:key="qs_dynamic_equalizer"
-            android:title="@string/title_dynamic_equalizer"
             android:defaultValue="true" />
 
     </PreferenceCategory>
