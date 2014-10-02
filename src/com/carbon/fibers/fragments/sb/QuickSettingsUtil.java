@@ -44,6 +44,7 @@ import static com.android.internal.util.cm.QSConstants.TILE_SCREENTIMEOUT;
 import static com.android.internal.util.cm.QSConstants.TILE_SETTINGS;
 import static com.android.internal.util.cm.QSConstants.TILE_SLEEP;
 import static com.android.internal.util.cm.QSConstants.TILE_SYNC;
+import static com.android.internal.util.cm.QSConstants.TILE_TENTACLES;
 import static com.android.internal.util.cm.QSConstants.TILE_TORCH;
 import static com.android.internal.util.cm.QSConstants.TILE_USER;
 import static com.android.internal.util.cm.QSConstants.TILE_VOLUME;
@@ -145,6 +146,9 @@ public class QuickSettingsUtil {
         registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_SYNC, R.string.title_tile_sync,
                 "com.android.systemui:drawable/ic_qs_sync_on"));
+        registerTile(new QuickSettingsUtil.TileInfo(
+                 TILE_TENTACLES, R.string.title_tile_tentacles,
+                "com.android.systemui:drawable/ic_qs_carbon"));
         registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_TORCH, R.string.title_tile_torch,
                 "com.android.systemui:drawable/ic_qs_torch_on"));
