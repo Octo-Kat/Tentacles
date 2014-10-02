@@ -23,7 +23,6 @@ import static com.android.internal.util.cm.QSConstants.TILE_BATTERY;
 import static com.android.internal.util.cm.QSConstants.TILE_BLUETOOTH;
 import static com.android.internal.util.cm.QSConstants.TILE_BRIGHTNESS;
 import static com.android.internal.util.cm.QSConstants.TILE_CAMERA;
-import static com.android.internal.util.cm.QSConstants.TILE_CARBON;
 import static com.android.internal.util.cm.QSConstants.TILE_COMPASS;
 import static com.android.internal.util.cm.QSConstants.TILE_DELIMITER;
 import static com.android.internal.util.cm.QSConstants.TILE_EXP_DESKTOP;
@@ -95,9 +94,6 @@ public class QuickSettingsUtil {
         registerTile(new QuickSettingsUtil.TileInfo(
                  TILE_CAMERA, R.string.title_tile_camera,
                 "com.android.systemui:drawable/ic_qs_camera"));
-        registerTile(new QuickSettingsUtil.TileInfo(
-                 TILE_CARBON, R.string.title_tile_carbon,
-                "com.android.systemui:drawable/ic_qs_carbon"));
         registerTile(new QuickSettingsUtil.TileInfo(
                  TILE_COMPASS, R.string.title_tile_compass,
                 "com.android.systemui:drawable/ic_qs_compass_on"));
