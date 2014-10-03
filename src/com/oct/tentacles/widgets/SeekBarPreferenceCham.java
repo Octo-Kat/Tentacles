@@ -1,4 +1,4 @@
-package com.carbon.fibers.widgets;
+package com.oct.tentacles.widgets;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
-import com.carbon.fibers.R;
+import com.oct.tentacles.R;
 
 public class SeekBarPreferenceCham extends Preference implements OnSeekBarChangeListener {
 

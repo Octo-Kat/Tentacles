@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.carbon.fibers.fragments.sb;
+package com.oct.tentacles.fragments.sb;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -35,9 +35,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.carbon.fibers.R;
-import com.carbon.fibers.preference.SettingsPreferenceFragment;
-import com.carbon.fibers.widgets.SeekBarPreferenceCham;
+import com.oct.tentacles.R;
+import com.oct.tentacles.preference.SettingsPreferenceFragment;
+import com.oct.tentacles.widgets.SeekBarPreferenceCham;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
