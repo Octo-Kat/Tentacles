@@ -19,13 +19,13 @@
 
     <PreferenceScreen
         android:key="pie_button_style"
-        android:fragment="com.carbon.fibers.fragments.pie.PieButtonStyleSettings"
+        android:fragment="com.oct.tentacles.fragments.pie.PieButtonStyleSettings"
         android:title="@string/pie_button_style"
         android:summary="@string/pie_button_style_summary" />
 
     <PreferenceScreen
             android:key="pie_button_second_layer"
-            android:fragment="com.carbon.fibers.dslv.ButtonsListViewSettings"
+            android:fragment="com.oct.tentacles.dslv.ButtonsListViewSettings"
             android:title="@string/pie_button_second_layer"
             android:summary="@string/pie_button_second_layer_summary">
         <extra android:name="buttonMode" android:value="2" />

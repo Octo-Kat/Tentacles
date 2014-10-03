@@ -35,7 +35,7 @@
             style="?android:attr/textAppearanceSmall"
             android:text="@string/installer_title" />
 
-        <com.carbon.fibers.util.CheckboxSetting
+        <com.oct.tentacles.util.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -43,7 +43,7 @@
                 android:title="@string/persist_enable"
                 android:summary="@string/persist_enable_summary"  />
 
-        <com.carbon.fibers.util.CheckboxSetting
+        <com.oct.tentacles.util.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -52,7 +52,7 @@
                 android:title="@string/persist_prop_density"
                 android:summary="@string/persist_prop_density_summary" />
 
-        <com.carbon.fibers.util.CheckboxSetting
+        <com.oct.tentacles.util.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -61,7 +61,7 @@
                 android:title="@string/persist_file_hosts"
                 android:summary="@string/persist_file_hosts_summary" />
 
-        <com.carbon.fibers.util.CheckboxSetting
+        <com.oct.tentacles.util.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 

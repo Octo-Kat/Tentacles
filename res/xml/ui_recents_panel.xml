@@ -26,7 +26,7 @@
 
     <PreferenceScreen
         android:key="recents_ram_bar"
-        android:fragment="com.carbon.fibers.fragments.ui.RamBar"
+        android:fragment="com.oct.tentacles.fragments.ui.RamBar"
         android:title="@string/ram_bar" />
 
     <ListPreference

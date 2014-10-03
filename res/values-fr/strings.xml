@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Carbon Fibers</string>
+  <string name="app_name">Tentacles</string>
   <string name="user_interface">Interface</string>
   <string name="bars">Interface de la barre</string>
   <string name="system">Système</string>
@@ -208,7 +208,7 @@
   <string name="title_tile_bluetooth">Bluetooth</string>
   <string name="title_tile_brightness">Luminosité</string>
   <string name="title_tile_camera">Appareil photo</string>
-  <string name="title_tile_carbon">Carbon</string>
+  <string name="title_tile_tentacles">Carbon</string>
   <string name="title_tile_compass">Boussole</string>
   <string name="title_tile_sleep">Mettre en veille</string>
   <string name="title_tile_powermenu">Menu marche/arrêt</string>
@@ -872,7 +872,7 @@
   <string name="lockscreen_style_reset_message">Réinitialiser toutes les couleurs de l\'écran de verrouillage ?</string>
   <string name="lockscreen_icon_title">Icône de l\'anneau de déverrouillage</string>
   <string name="lockscreen_lock_icon_custom">Icône personnalisée</string>
-  <string name="lockscreen_lock_icon_carbon">Icône Carbon</string>
+  <string name="lockscreen_lock_icon_tentacles">Icône Carbon</string>
   <string name="lockscreen_lock_icon_default">Icône par défaut</string>
   <string name="lockscreen_colorize_handle_title">Couleur de l\'icône personnalisé</string>
   <string name="lockscreen_colorize_handle_summary">La couleur du cadenas sera défini comme celle de l\'anneau de déverrouillage</string>
@@ -936,7 +936,7 @@
   <string name="pie_trigger_warning">Au minimum un des principaux déclencheurs doit être activé (en bas, à gauche ou à droite).</string>
   <string name="pie_disable_ime_triggers_title">Réduire la taille du déclencheur sur le clavier</string>
   <string name="pie_disable_ime_triggers_summary">Réduit la taille du déclencheur à gauche et à droite si le clavier est actif</string>
-  <string name="pie_carbon_title">Pie</string>
+  <string name="pie_tentacles_title">Pie</string>
   <string name="progressbar_title">Style de barre de progression</string>
   <string name="progressbar_mirror_title">Mode miroir</string>
   <string name="progressbar_reverse_title">Inversé</string>

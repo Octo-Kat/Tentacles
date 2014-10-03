@@ -44,7 +44,7 @@
             android:title="@string/dismiss_all"
             android:summary="@string/dismiss_all_summary" />
 
-        <com.carbon.fibers.preference.AppMultiSelectListPreference
+        <com.oct.tentacles.preference.AppMultiSelectListPreference
             android:key="excluded_apps"
             android:persistent="false"
             android:title="@string/excluded_apps_title"
@@ -61,7 +61,7 @@
             android:max="100"
             android:defaultValue="30" />
 
-        <com.carbon.fibers.preference.NumberPickerPreference
+        <com.oct.tentacles.preference.NumberPickerPreference
             android:key="notifications_height"
             android:dialogMessage="@string/notifications_height"
             android:title="@string/notifications_height"

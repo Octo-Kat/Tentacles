@@ -53,7 +53,7 @@
   <string name="time_8_seconds">8 שניות</string>
   <string name="time_9_seconds">9 שניות</string>
   <string name="time_10_seconds">10 שניות</string>
-  <string name="about_carbon_title">אודות Carbon</string>
+  <string name="about_tentacles_title">אודות Carbon</string>
   <string name="advanced_settings">הגדרות מתקדמות</string>
   <string name="misc_short">שונות</string>
   <string name="custom_app_icon_successfully">"'s סמל נקבע בהצלחה!"</string>
@@ -698,7 +698,7 @@
   <string name="listview_bounce_interpolator">קפיצה</string>
   <string name="lockscreen_style_reset_message">לאפס את כל הצבעים במסך הנעילה ?</string>
   <string name="lockscreen_lock_icon_custom">סמל מותאם אישית</string>
-  <string name="lockscreen_lock_icon_carbon">סמל Carbon</string>
+  <string name="lockscreen_lock_icon_tentacles">סמל Carbon</string>
   <string name="lockscreen_lock_icon_default">סמל ברירת מחדל</string>
   <string name="lockscreen_style_title">סגנון ערכת הנושא</string>
   <string name="lockscreen_frame_color_title">צבע מסגרת</string>

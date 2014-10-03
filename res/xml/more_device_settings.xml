@@ -37,14 +37,14 @@
         android:key="display_calibration_category"
         android:title="@string/display_calibration_title" >
 
-       <com.carbon.fibers.fragments.DisplayColor
+       <com.oct.tentacles.fragments.DisplayColor
                 android:key="color_calibration"
                 android:title="@string/color_calibration_title"
                 android:dialogTitle="@string/color_calibration_title"
                 android:summary="@string/color_calibration_summary"
                 android:persistent="false" />
 
-        <com.carbon.fibers.fragments.DisplayGamma
+        <com.oct.tentacles.fragments.DisplayGamma
                 android:key="gamma_tuning"
                 android:title="@string/gamma_tuning_title_head"
                 android:dialogTitle="@string/gamma_tuning_title_head"
@@ -57,7 +57,7 @@
         android:key="sensors_motors_category"
         android:title="@string/sensors_motors_title" >
 
-        <com.carbon.fibers.fragments.VibratorIntensity
+        <com.oct.tentacles.fragments.VibratorIntensity
             android:key="vibration_intensity"
             android:title="@string/vibrator_intensity_title"
             android:dialogTitle="@string/vibrator_intensity_title"

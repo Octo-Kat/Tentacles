@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Carbon Fibers</string>
+  <string name="app_name">Tentacles</string>
   <string name="user_interface">Interfaccia</string>
   <string name="bars">Interfaccia della barra</string>
   <string name="system">Sistema</string>
@@ -209,7 +209,7 @@
   <string name="title_tile_bluetooth">Bluetooth</string>
   <string name="title_tile_brightness">Luminosità</string>
   <string name="title_tile_camera">Fotocamera</string>
-  <string name="title_tile_carbon">Carbon</string>
+  <string name="title_tile_tentacles">Carbon</string>
   <string name="title_tile_compass">Bussola</string>
   <string name="title_tile_sleep">Standby</string>
   <string name="title_tile_powermenu">Menù accensione</string>
@@ -873,7 +873,7 @@
   <string name="lockscreen_style_reset_message">Reimpostare tutti i colori della schermata di sblocco ?</string>
   <string name="lockscreen_icon_title">Icona maniglia di sblocco</string>
   <string name="lockscreen_lock_icon_custom">Icona personalizzata</string>
-  <string name="lockscreen_lock_icon_carbon">Icona Carbon</string>
+  <string name="lockscreen_lock_icon_tentacles">Icona Carbon</string>
   <string name="lockscreen_lock_icon_default">Icona predefinita</string>
   <string name="lockscreen_colorize_handle_title">Colora maniglia di sblocco personalizzata</string>
   <string name="lockscreen_colorize_handle_summary">Il colore scelto sarà impostato alla maniglia di sblocco</string>
@@ -937,7 +937,7 @@
   <string name="pie_trigger_warning">Almeno uno dei bordi (sotto, sinistra o destra) per attivare la torta deve essere attivo.</string>
   <string name="pie_disable_ime_triggers_title">Riduci area di attivazione con la tastiera</string>
   <string name="pie_disable_ime_triggers_summary">Riduce l\'area di attivazione a destra e a sinistra se la tastiera è attiva</string>
-  <string name="pie_carbon_title">SlimPIE</string>
+  <string name="pie_tentacles_title">SlimPIE</string>
   <string name="progressbar_title">Stile Barra di Progresso</string>
   <string name="progressbar_mirror_title">Modalità specchio</string>
   <string name="progressbar_reverse_title">Al rovescio</string>

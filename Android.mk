@@ -14,7 +14,7 @@
 #
 #LOCAL_AAPT_FLAGS := --auto-add-overlay
 #
-#LOCAL_PACKAGE_NAME := CarbonFibers
+#LOCAL_PACKAGE_NAME := Tentacals
 #LOCAL_CERTIFICATE := platform
 #LOCAL_PRIVIELEGED_MODULE := true
 #

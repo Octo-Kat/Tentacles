@@ -54,6 +54,6 @@
         android:paddingTop="2dp"
         android:paddingLeft="2dp"
         android:visibility="gone"
-        android:src="@drawable/ic_fibers_quicksettings" />
+        android:src="@drawable/ic_tentacles_quicksettings" />
 
 </RelativeLayout>

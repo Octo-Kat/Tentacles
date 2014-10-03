@@ -35,14 +35,14 @@
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_collapse_panel"
             android:title="@string/title_collapse_panel"
             android:summary="@string/summary_collapse_panel" />
 
         <PreferenceScreen
             android:key="quicksettings_tiles_style"
-            android:fragment="com.carbon.fibers.fragments.sb.QuickSettingsTilesStyle"
+            android:fragment="com.oct.tentacles.fragments.sb.QuickSettingsTilesStyle"
             android:title="@string/quicksettings_tiles_style"
             android:summary="@string/summary_quicksettings_tiles_style" />
 
@@ -56,9 +56,9 @@
             android:key="tile_picker"
             android:title="@string/tile_picker_title"
             android:summary="@string/tile_picker_summary"
-            android:fragment="com.carbon.fibers.fragments.sb.QuickSettingsTiles" />
+            android:fragment="com.oct.tentacles.fragments.sb.QuickSettingsTiles" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="quick_settings_tiles_flip"
             android:title="@string/flip_qs_tiles_title"
             android:defaultValue="true" />
@@ -75,39 +75,39 @@
             android:summary="@string/dynamic_tiles_note_summary"
             android:selectable="false" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_alarm"
             android:title="@string/title_dynamic_alarm"
             android:defaultValue="true" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_bugreport"
             android:title="@string/title_dynamic_bugreport"
             android:defaultValue="true" />
 
         <!-- 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_dock_battery"
             android:title="@string/title_dynamic_dock_battery"
             android:defaultValue="true" />
         -->
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_ime"
             android:title="@string/title_dynamic_ime"
             android:defaultValue="true" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_usbtether"
             android:title="@string/title_dynamic_usbtether"
             android:defaultValue="true" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dyanmic_wifi"
             android:title="@string/title_dynamic_wifi"
             android:defaultValue="true" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="qs_dynamic_equalizer"
             android:title="@string/title_dynamic_equalizer"
             android:defaultValue="true" />

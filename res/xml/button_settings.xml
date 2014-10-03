@@ -16,7 +16,7 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.carbon.fibers.fragments.ButtonBacklightBrightness
+    <com.oct.tentacles.fragments.ButtonBacklightBrightness
         android:key="button_backlight"
         android:title="@string/button_backlight_title"
         android:dialogTitle="@string/button_backlight_title"
@@ -156,19 +156,19 @@
         android:key="camera_key"
         android:title="@string/hardware_keys_camera_key_title" >
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="camera_wake_screen"
             android:title="@string/camera_wake_title"
             android:summary="@string/camera_wake_summary"
             android:defaultValue="false" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="camera_sleep_on_release"
             android:title="@string/camera_sleep_on_release_title"
             android:summary="@string/camera_sleep_on_release_summary"
             android:defaultValue="false" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="camera_music_controls"
             android:title="@string/camera_music_controls_title"
             android:summary="@string/camera_music_controls_summary"
@@ -188,7 +188,7 @@
             android:entryValues="@array/volbtn_cursor_control_values"
             android:persistent="false" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="volbtn_music_controls"
             android:title="@string/volbtn_music_controls_title"
             android:summary="@string/volbtn_music_controls_summary"
@@ -199,7 +199,7 @@
             android:title="@string/swap_volume_buttons_title"
             android:summary="@string/swap_volume_buttons_summary" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="volume_wake_screen"
             android:title="@string/volume_wake_title"
             android:summary="@string/volume_wake_summary"

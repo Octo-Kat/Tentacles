@@ -28,17 +28,17 @@
 
             <PreferenceScreen
                     android:key="navbar_button_settings"
-                    android:fragment="com.carbon.fibers.dslv.ButtonsListViewSettings"
+                    android:fragment="com.oct.tentacles.dslv.ButtonsListViewSettings"
                     android:title="@string/navbar_button_title">
                 <extra android:name="buttonMode" android:value="0" />
                 <extra android:name="maxAllowedButtons" android:value="5" />
                 <extra android:name="disableDeleteLastEntry" android:value="true" />
-                <extra android:name="fragment" android:value="com.carbon.fibers.fragments.navbar.NavbarButtonFragment" />
+                <extra android:name="fragment" android:value="com.oct.tentacles.fragments.navbar.NavbarButtonFragment" />
             </PreferenceScreen>
 
             <PreferenceScreen
                     android:key="navbar_targets_settings"
-                    android:fragment="com.carbon.fibers.dslv.ButtonsListViewSettings"
+                    android:fragment="com.oct.tentacles.dslv.ButtonsListViewSettings"
                     android:title="@string/navbar_targets_title">
                 <extra android:name="buttonMode" android:value="3" />
                 <extra android:name="maxAllowedButtons" android:value="5" />
@@ -48,7 +48,7 @@
 
             <PreferenceScreen
                 android:key="navbar_style_dimen_settings"
-                android:fragment="com.carbon.fibers.fragments.navbar.NavbarStyleDimenSettings"
+                android:fragment="com.oct.tentacles.fragments.navbar.NavbarStyleDimenSettings"
                 android:title="@string/navbar_style_dimen_title" />
 
         </PreferenceCategory>

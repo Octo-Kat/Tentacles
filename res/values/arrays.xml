@@ -1147,7 +1147,7 @@
     <!-- Lockscreen lock icon values -->
     <string-array name="lock_icon_entries" translatable="false">
         <item>@string/lockscreen_lock_icon_custom</item>
-        <item>@string/lockscreen_lock_icon_carbon</item>
+        <item>@string/lockscreen_lock_icon_tentacles</item>
         <item>@string/lockscreen_lock_icon_default</item>
     </string-array>
 

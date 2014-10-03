@@ -32,7 +32,7 @@
             android:defaultValue="0xff000000"
             android:dependency="pie_show_background" />
 
-        <com.carbon.fibers.widgets.SeekBarPreference
+        <com.oct.tentacles.widgets.SeekBarPreference
             android:key="pie_background_alpha"
             android:title="@string/pie_background_alpha_title"
             android:dependency="pie_show_background" />
@@ -66,7 +66,7 @@
     <PreferenceCategory
         android:title="@string/pie_dimens_title">
 
-        <com.carbon.fibers.widgets.SeekBarPreference
+        <com.oct.tentacles.widgets.SeekBarPreference
              android:key="pie_control_size"
              android:title="@string/pie_control_size" />
 

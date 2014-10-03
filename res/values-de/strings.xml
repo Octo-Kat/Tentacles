@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Carbon Fibers</string>
+  <string name="app_name">Tentacles</string>
   <string name="user_interface">Benutzeroberfläche</string>
   <string name="bars">Balken Oberfläche</string>
   <string name="system">System</string>
@@ -208,7 +208,7 @@
   <string name="title_tile_bluetooth">Bluetooth</string>
   <string name="title_tile_brightness">Helligkeit</string>
   <string name="title_tile_camera">Kamera</string>
-  <string name="title_tile_carbon">Carbon</string>
+  <string name="title_tile_tentacles">Carbon</string>
   <string name="title_tile_compass">Kompass</string>
   <string name="title_tile_sleep">In Standby gehen</string>
   <string name="title_tile_powermenu">Power Menü</string>
@@ -872,7 +872,7 @@
   <string name="lockscreen_style_reset_message">Alle Bildschirmsperre Farben wiederherstellen?</string>
   <string name="lockscreen_icon_title">Sperrsymbol Icon</string>
   <string name="lockscreen_lock_icon_custom">Eigenes Icon</string>
-  <string name="lockscreen_lock_icon_carbon">Carbon Icon</string>
+  <string name="lockscreen_lock_icon_tentacles">Carbon Icon</string>
   <string name="lockscreen_lock_icon_default">Eigenes Icon</string>
   <string name="lockscreen_colorize_handle_title">Färbe eigenes Icon</string>
   <string name="lockscreen_colorize_handle_summary">Sperrfarbe wird auf Sperricon angewendet</string>
@@ -936,7 +936,7 @@
   <string name="pie_trigger_warning">Mindestens einer der Haupt-Trigger muss aktiviert sein (unten, links oder rechts)</string>
   <string name="pie_disable_ime_triggers_title">Verkleinern der Trigger auf Tastatur</string>
   <string name="pie_disable_ime_triggers_summary">Linken und rechten Trigger verkleinern, wenn Tastatur aktiv ist</string>
-  <string name="pie_carbon_title">Pie</string>
+  <string name="pie_tentacles_title">Pie</string>
   <string name="progressbar_title">Fortschrittsbalken Farbe</string>
   <string name="progressbar_mirror_title">Spiegel Modus</string>
   <string name="progressbar_reverse_title">Umgekehrt</string>

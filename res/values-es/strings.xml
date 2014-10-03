@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Carbon Fibers</string>
+  <string name="app_name">Tentacles</string>
   <string name="user_interface">Interfaz</string>
   <string name="bars">Interfaz de la barra</string>
   <string name="system">Sistema</string>
@@ -209,7 +209,7 @@
   <string name="title_tile_bluetooth">Bluetooth</string>
   <string name="title_tile_brightness">Brillo</string>
   <string name="title_tile_camera">Cámara</string>
-  <string name="title_tile_carbon">Carbon</string>
+  <string name="title_tile_tentacles">Carbon</string>
   <string name="title_tile_compass">Brújula</string>
   <string name="title_tile_sleep">Suspender</string>
   <string name="title_tile_powermenu">Menú de apagado</string>
@@ -873,7 +873,7 @@
   <string name="lockscreen_style_reset_message">¿Restablecer todos los colores de pantalla de bloqueo?</string>
   <string name="lockscreen_icon_title">Ícono manejable de bloqueo</string>
   <string name="lockscreen_lock_icon_custom">Icono personalizado</string>
-  <string name="lockscreen_lock_icon_carbon">Icono de Carbon</string>
+  <string name="lockscreen_lock_icon_tentacles">Icono de Carbon</string>
   <string name="lockscreen_lock_icon_default">Icono predeterminado</string>
   <string name="lockscreen_colorize_handle_title">Colorear manija personalizada</string>
   <string name="lockscreen_colorize_handle_summary">El color del candado será igual al de la manija</string>
@@ -937,7 +937,7 @@
   <string name="pie_trigger_warning">Mínimo uno de los activadores principales (inferior, izquierdo o derecho) necesita estar habilitado.</string>
   <string name="pie_disable_ime_triggers_title">Reducir tamaño de activador al usar teclado</string>
   <string name="pie_disable_ime_triggers_summary">Reduce el tamaño de activador izquierdo y derecho si el teclado está activo</string>
-  <string name="pie_carbon_title">Pie</string>
+  <string name="pie_tentacles_title">Pie</string>
   <string name="progressbar_title">Estilo de barra de progreso</string>
   <string name="progressbar_mirror_title">Modo espejo</string>
   <string name="progressbar_reverse_title">Invertida</string>

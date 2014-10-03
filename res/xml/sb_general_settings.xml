@@ -30,13 +30,13 @@
         <PreferenceScreen
             android:key="heads_up"
             android:title="@string/heads_up_title"
-            android:fragment="com.carbon.fibers.fragments.sb.HeadsUpSettings" />
+            android:fragment="com.oct.tentacles.fragments.sb.HeadsUpSettings" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/status_bar_double_tap_to_sleep_title" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="status_bar_notif_count"
             android:title="@string/status_bar_notif_count_title"
             android:summary="@string/status_bar_notif_count_summary"
@@ -55,14 +55,14 @@
             android:summary="@string/brightness_slider_summary"
             android:defaultValue="false" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="show_lte_or_fourgee"
             android:title="@string/show_lte_or_fourgee_title"
             android:summary="@string/show_lte_or_fourgee_summary" />
 
         <PreferenceScreen
             android:key="traffic"
-            android:fragment="com.carbon.fibers.fragments.sb.Traffic"
+            android:fragment="com.oct/tentacles.fragments.sb.Traffic"
             android:title="@string/network_traffic_title" />
 
 </PreferenceScreen>

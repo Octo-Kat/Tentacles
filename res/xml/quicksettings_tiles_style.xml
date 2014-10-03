@@ -35,7 +35,7 @@
              android:title="@string/quick_tiles_text_color_title"
              android:defaultValue="0xffcccccc" />
 
-        <com.carbon.fibers.widgets.SeekBarPreference
+        <com.oct.tentacles.widgets.SeekBarPreference
              android:key="quick_tiles_alpha"
              android:title="@string/quick_tiles_alpha_title" />
 

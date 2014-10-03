@@ -25,26 +25,26 @@
         android:summaryOff="@string/ad_enable_summary_off"
         android:summaryOn="@string/ad_enable_summary_on" />
 
-    <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+    <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
         android:key="active_display_content"
         android:defaultValue="true"
         android:title="@string/ad_content_title"
         android:summary="@string/ad_content_summary"
         android:dependency="ad_enable"/>
 
-    <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+    <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
         android:key="active_display_text"
         android:title="@string/ad_text_title"
         android:summary="@string/ad_text_summary"
         android:dependency="ad_enable"/>
 
-    <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+    <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
         android:key="active_display_all_notifications"
         android:title="@string/ad_all_notifications_title"
         android:summary="@string/ad_all_notifications_summary"
         android:dependency="ad_enable"/>
 
-    <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+    <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
         android:key="active_display_hide_low_priority_notifications"
         android:title="@string/ad_hide_low_priority_title"
         android:summary="@string/ad_hide_low_priority_summary"
@@ -82,7 +82,7 @@
         android:entryValues="@array/ad_redisplay_values"
         android:dependency="ad_enable"/>
 
-    <com.carbon.fibers.chameleonos.SeekBarPreference
+    <com.oct.tentacles.chameleonos.SeekBarPreference
         android:key="ad_annoying"
         android:persistent="false"
         android:title="@string/ad_annoying_title"
@@ -98,13 +98,13 @@
         android:key="ad_customizations"
         android:title="@string/ad_customizations_title" />
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="active_display_double_tap"
             android:title="@string/ad_double_tap_title"
             android:summary="@string/ad_double_tap_summary"
             android:dependency="ad_enable"/>
 
-        <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="active_display_show_date"
             android:defaultValue="true"
             android:title="@string/ad_show_date_title"
@@ -118,14 +118,14 @@
             android:summary="@string/ad_show_ampm_summary"
             android:dependency="ad_enable"/>
 
-        <com.carbon.fibers.chameleonos.AppMultiSelectListPreference
+        <com.oct.tentacles.chameleonos.AppMultiSelectListPreference
             android:key="ad_excluded_apps"
             android:persistent="false"
             android:title="@string/ad_excluded_apps_title"
             android:summary="@string/ad_excluded_apps_summary"
             android:dependency="ad_enable" />
 
-        <com.carbon.fibers.chameleonos.AppMultiSelectListPreference
+        <com.oct.tentacles.chameleonos.AppMultiSelectListPreference
             android:key="ad_privacy_apps"
             android:persistent="false"
             android:title="@string/ad_privacy_apps_title"
@@ -158,7 +158,7 @@
             android:entryValues="@array/ad_timeout_values"
             android:dependency="ad_enable"/>
 
-        <com.carbon.fibers.chameleonos.SeekBarPreference
+        <com.oct.tentacles.chameleonos.SeekBarPreference
             android:key="ad_brightness"
             android:persistent="false"
             android:title="@string/ad_brightness_title"

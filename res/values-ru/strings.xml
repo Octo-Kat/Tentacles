@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Carbon Fibers</string>
+    <string name="app_name">Tentacles</string>
 
     <!-- Header Strings -->
     <string name="user_interface">Интерфейс</string>
@@ -257,7 +257,7 @@
     <string name="title_tile_bluetooth">Bluetooth</string>
     <string name="title_tile_brightness">Подсветка</string>
     <string name="title_tile_camera">Камера</string>
-    <string name="title_tile_carbon">Carbon</string>
+    <string name="title_tile_tentacles">Carbon</string>
     <string name="title_tile_compass">Компас</string>
     <string name="title_tile_sleep">Выключить экран</string>
     <string name="title_tile_powermenu">Меню кнопки питания</string>
@@ -1016,7 +1016,7 @@
     <string name="lockscreen_style_reset_message">Сбросить все цвета экрана блокировки?</string>
     <string name="lockscreen_icon_title">Значок ползунка блокировки</string>
     <string name="lockscreen_lock_icon_custom">Свой значок</string>
-    <string name="lockscreen_lock_icon_carbon">Значок Carbon</string>
+    <string name="lockscreen_lock_icon_tentacles">Значок Carbon</string>
     <string name="lockscreen_lock_icon_default">Значок по умолчанию</string>
     <string name="lockscreen_colorize_handle_title">Цвет своего значка</string>
     <string name="lockscreen_colorize_handle_summary">Установить цвет блокировщика для значка блокировки</string>
@@ -1084,7 +1084,7 @@
     <string name="pie_trigger_warning">Должна быть включена как минимум одна основная точка привязки (внизу, слева или справа).</string>
     <string name="pie_disable_ime_triggers_title">Отключить срабатывание на клавиатуре</string>
     <string name="pie_disable_ime_triggers_summary">Отключает или уменьшает размер области срабатывания в зоне клавиатуры, когда клавиатура открыта</string>
-    <string name="pie_carbon_title">Pie</string>
+    <string name="pie_tentacles_title">Pie</string>
 
     <!-- Smooth ProgressBar -->
     <string name="progressbar_title">Стиль индикатор прогресса</string>

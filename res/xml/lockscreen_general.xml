@@ -35,14 +35,14 @@
 
     <PreferenceScreen
             android:key="lockscreen_shortcuts"
-            android:fragment="com.carbon.fibers.dslv.ButtonsListViewSettings"
+            android:fragment="com.oct.tentacles.dslv.ButtonsListViewSettings"
             android:summary="@string/lockscreen_shortcuts_summary"
             android:title="@string/lockscreen_shortcuts_title">
         <extra android:name="buttonMode" android:value="4" />
         <extra android:name="maxAllowedButtons" android:value="5" />
         <extra android:name="disableLongpress" android:value="true" />
         <extra android:name="useAppPickerOnly" android:value="true" />
-        <extra android:name="fragment" android:value="com.carbon.fibers.fragments.ls.LockscreenShortcutFragment" />
+        <extra android:name="fragment" android:value="com.oct.tentacles.fragments.ls.LockscreenShortcutFragment" />
     </PreferenceScreen>
 
     <CheckBoxPreference
@@ -57,7 +57,7 @@
 
     <PreferenceScreen
             android:key="keyguard_style"
-            android:fragment="com.carbon.fibers.fragments.ls.LockscreenStyle"
+            android:fragment="com.oct.tentacles.fragments.ls.LockscreenStyle"
             android:title="@string/lockscreen_style_title"/>
 
     <PreferenceScreen

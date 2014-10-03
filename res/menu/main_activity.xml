@@ -3,7 +3,7 @@
     <item android:id="@+id/change_locale"
           android:title="@string/menu_main_activity_change_locale"
           android:showAsAction="ifRoom|withText" />
-    <!--item android:id="@+id/about_carbon"
-          android:title="@string/menu_about_carbon"
+    <!--item android:id="@+id/about_tentacles"
+          android:title="@string/menu_about_tentacles"
           android:showAsAction="ifRoom|withText" /-->
 </menu>

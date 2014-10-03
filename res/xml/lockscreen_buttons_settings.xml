@@ -15,7 +15,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+    <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
         android:key="home_unlock_screen"
         android:title="@string/unlock_home_unlock_title"
         android:summary="@string/unlock_home_unlock_summary" />
@@ -27,7 +27,7 @@
         android:entries="@array/lockscreen_long_key_press_entries"
         android:entryValues="@array/lockscreen_long_key_press_values"/>
 
-    <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+    <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
         android:key="menu_unlock_screen"
         android:title="@string/unlock_menu_unlock_title"
         android:summary="@string/unlock_menu_unlock_summary" />
@@ -39,7 +39,7 @@
         android:entries="@array/lockscreen_long_key_press_entries"
         android:entryValues="@array/lockscreen_long_key_press_values"/>
 
-    <com.carbon.fibers.preference.SystemSettingCheckBoxPreference
+    <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
         android:key="camera_unlock_screen"
         android:title="@string/unlock_camera_unlock_title"
         android:summary="@string/unlock_camera_unlock_summary" />

@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Carbon Fibers</string>
+  <string name="app_name">Tentacles</string>
   <string name="user_interface">Uiterlijk</string>
   <string name="bars">Staaf interface</string>
   <string name="system">Systeem</string>
@@ -208,7 +208,7 @@
   <string name="title_tile_bluetooth">Bluetooth</string>
   <string name="title_tile_brightness">Helderheid</string>
   <string name="title_tile_camera">Camera</string>
-  <string name="title_tile_carbon">Carbon (koolstof)</string>
+  <string name="title_tile_tentacles">Carbon (koolstof)</string>
   <string name="title_tile_compass">Kompas</string>
   <string name="title_tile_sleep">Ga slapen</string>
   <string name="title_tile_powermenu">Power-menu</string>
@@ -872,7 +872,7 @@
   <string name="lockscreen_style_reset_message">Alle lockscreen kleuren opnieuw instellen?</string>
   <string name="lockscreen_icon_title">Schermbeveiligingsicoon</string>
   <string name="lockscreen_lock_icon_custom">Aangepast pictogram</string>
-  <string name="lockscreen_lock_icon_carbon">Carbon pictogram</string>
+  <string name="lockscreen_lock_icon_tentacles">Carbon pictogram</string>
   <string name="lockscreen_lock_icon_default">Standaardpictogram</string>
   <string name="lockscreen_colorize_handle_title">Inkleuren aangepast handvat</string>
   <string name="lockscreen_colorize_handle_summary">Lock kleur zal worden ingesteld naar de lock-handle</string>
@@ -936,7 +936,7 @@
   <string name="pie_trigger_warning">Minimaal een van de hoofd-gebeurtenissen (onder, links of rechts) dient ingeschakeld te zijn.</string>
   <string name="pie_disable_ime_triggers_title">Verkleinen van de trigger op toetsenbord</string>
   <string name="pie_disable_ime_triggers_summary">Links en rechts trigger verkleint wanneer toetsenbord actief is</string>
-  <string name="pie_carbon_title">Pie</string>
+  <string name="pie_tentacles_title">Pie</string>
   <string name="progressbar_title">Vooruitgangsbalk stijl</string>
   <string name="progressbar_mirror_title">Spiegel modus</string>
   <string name="progressbar_reverse_title">Omgekeerd</string>
