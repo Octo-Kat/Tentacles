@@ -62,7 +62,7 @@
 
         <PreferenceScreen
             android:key="traffic"
-            android:fragment="com.oct/tentacles.fragments.sb.Traffic"
+            android:fragment="com.oct.tentacles.fragments.sb.Traffic"
             android:title="@string/network_traffic_title" />
 
 </PreferenceScreen>
