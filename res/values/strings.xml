@@ -82,6 +82,9 @@
     <string name="profile_select">Select profile</string>
     <string name="power_menu_expanded_desktop">Expanded desktop</string>
 
+    <!-- Performance settings -->
+    <string name="performance_settings">Performance</string>
+
     <!-- Share to clipboard -->
     <string name="clipboard_notification">Copied to clipboard</string>
 

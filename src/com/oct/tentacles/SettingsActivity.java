@@ -40,6 +40,12 @@ import android.widget.TextView;
 // fragments import for entry
 import com.android.settings.privacyguard.*;
 import com.android.settings.applications.*;
+import com.brewcrewfoo.performance.*;
+import com.brewcrewfoo.performance.activities.*;
+import com.brewcrewfoo.performance.activities.fragments.*;
+import com.brewcrewfoo.performance.activities.service.*;
+import com.brewcrewfoo.performance.activities.util.*;
+import com.brewcrewfoo.performance.activities.widgets.*;
 import com.oct.tentacles.dslv.*;
 import com.oct.tentacles.fragments.*;
 import com.oct.tentacles.fragments.ls.*;

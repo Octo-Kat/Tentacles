@@ -92,6 +92,13 @@
             android:id="@+id/profiles_settings"
             android:icon="@drawable/ic_settings_profiles"
             android:fragment="com.android.settings.profiles.ProfilesSettings"
-            android:title="@string/profiles_settings_title" />          
+            android:title="@string/profiles_settings_title" /> 
+            
+        <!-- Performance -->
+        <header
+            android:id="@+id/performance_controls"
+            android:fragment="com.brewcrewfoo.performance.activities.MainActivity"
+            android:icon="@drawable/ic_settings_performance"
+            android:title="@string/performance_settings" />         
 
 </preference-headers>
