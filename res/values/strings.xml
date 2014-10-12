@@ -60,6 +60,28 @@
     <string name="bootanim_settings_title">Boot animations</string>
     <string name="soundpack_settings_title">Sound packs</string>
 
+    <!-- Profiles settings -->
+    <string name="profiles_settings_title">Profiles</string>
+    <string name="profiles_add">Add</string>
+    <string name="profile_menu_delete">Delete</string>
+    <string name="profile_settings_title">Profile</string>
+    <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
+    <string name="profile_trigger_configure">Configure trigger</string>
+    <string name="profile_triggers">Triggers</string>
+    <string name="profile_trigger_filter_all">All triggers</string>
+    <string name="profile_trigger_filter_wifi">Wi-Fi triggers</string>
+    <string name="profile_trigger_filter_bluetooth">Bluetooth triggers</string>
+    <string name="profile_write_nfc_tag">Write to NFC tag</string>
+    <string name="profile_write_touch_tag">Touch tag to write</string>
+    <string name="profile_write_success">Tag successfully written</string>
+    <string name="profile_write_failed">Tag writing failed!</string>
+    <string name="profile_selected">Profile selected: %1$s</string>
+    <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
+    <string name="profile_unknown_nfc_tag">Unknown profile</string>
+    <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
+    <string name="profile_select">Select profile</string>
+    <string name="power_menu_expanded_desktop">Expanded desktop</string>
+
     <!-- Share to clipboard -->
     <string name="clipboard_notification">Copied to clipboard</string>
 
