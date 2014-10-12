@@ -61,7 +61,7 @@
         <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
             android:key="quick_settings_tiles_flip"
             android:title="@string/flip_qs_tiles_title"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
         </PreferenceCategory>
 
