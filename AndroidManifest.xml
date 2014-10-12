@@ -1,9 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oct.tentacles" 
-    android:sharedUserId="android.uid.system" >
+    package="com.carbon.fibers">
 
-    <uses-sdk android:minSdkVersion="19"/>
-    <original-package android:name="com.oct.tentacles" />
+    <original-package android:name="com.carbon.fibers" />
 
     <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,54 +15,132 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
-    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO" />
 
     <application
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/application_theme_dark"
-        android:uiOptions="none" >
+        android:uiOptions="none">
+
+        <uses-library android:name="org.cyanogenmod.hardware" required="false" />
+
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.oct.tentacles.SHORTCUT" />
+                <category android:name="com.carbon.fibers.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
- 	    android:name=".ShareToClipboard"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
- 	    android:label="@string/title_clipboard_share" >
+            android:name=".fragments.batterysaver.BatterySaverSettings"
+            android:label="@string/battery_saver_title">
             <intent-filter>
- 	         <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.MAIN" />
 
- 	         <category android:name="android.intent.category.ALTERNATIVE"/>
- 	         <category android:name="android.intent.category.DEFAULT"/>
-
- 	         <data android:mimeType="text/*" />
+                <category android:name="com.carbon.fibers.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
- 	    android:name=".CreateShortcut"
-             android:theme="@style/Theme.CreateShortCut" >
- 	  <intent-filter>
-               <action android:name="android.intent.action.CREATE_SHORTCUT" />
+            android:name=".fragments.ButtonSettings"
+            android:label="@string/button_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-  	       <category android:name="android.intent.category.DEFAULT" />
-          </intent-filter>
+                <category android:name="com.carbon.fibers.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragments.ls.KeyguardSettings"
+            android:label="@string/keyguard_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.carbon.fibers.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragments.ui.InterfaceSettings"
+            android:label="@string/user_interface">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.carbon.fibers.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragments.ui.RamBar"
+            android:label="@string/ram_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.carbon.fibers.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragments.navbar.NavbarTab"
+            android:label="@string/navbar_cat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.carbon.fibers.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragments.pie.PieTab"
+            android:label="@string/pie_control_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.carbon.fibers.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragments.sb.SbSettings"
+            android:label="@string/status_bar_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.carbon.fibers.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShareToClipboard"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/title_clipboard_share">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateShortcut"
+            android:theme="@style/Theme.CreateShortCut">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <receiver
-            android:name=".service.ChangeFastChargeStateReceiver" >
+            android:name=".service.ChangeFastChargeStateReceiver">
             <intent-filter>
-                <action android:name="com.oct.tentacles.ACTION_CHANGE_FCHARGE_STATE" />
+                <action android:name="com.carbon.fibers.ACTION_CHANGE_FCHARGE_STATE" />
             </intent-filter>
         </receiver>
-        <service android:name=".service.ExternalCommandService"
+        <service
+            android:name=".service.ExternalCommandService"
             android:exported="false" />
     </application>
 </manifest>
