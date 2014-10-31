@@ -16,6 +16,7 @@
 
         <CheckBoxPreference
             android:key="pocket_mode"
+            android:persistent="false"
             android:title="@string/pocket_mode"
             android:summary="@string/pocket_mode_summary" />
 
